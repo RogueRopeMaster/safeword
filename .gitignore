@@ -1,2 +1,5 @@
-/public/
-/resources/_gen/
+*.test
+imports.*
+dist/
+public/
+.DS_Store 
