@@ -25,7 +25,7 @@ unsafe = true
 author = "Safeword Asbl"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "sAFEWORDS website"
-info = ["Kinky Events in Bxl and beyond"]
+info = ["Kinky Events in Bxl and Beyond!"]
 keywords = "events"
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
