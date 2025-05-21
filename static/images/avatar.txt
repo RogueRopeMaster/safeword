@@ -1,0 +1,3 @@
+This is a placeholder file. Replace this with an actual avatar image file (e.g., avatar.jpg, avatar.png).
+
+The avatar image is used in the site configuration and is displayed in the sidebar of the Hugo-Coder theme.
