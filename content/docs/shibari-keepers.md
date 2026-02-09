@@ -92,4 +92,4 @@ If a group of people talks animatedly in the playroom while others are calmly pl
 
 ## Contact
 
-If you have a problem or a question, Ambroise is the reference person for the Dungeon Keepers team. Do not hesitate to head to her. (If she is playing and it is absolutely necessary for her to intervene, draw her attention or her partner's attention to the fact that you need her.)
+If you have a problem or a question, Ambroise is the reference person for the Dungeon Keepers team. Do not hesitate to head to Ambroise. (If Ambroise is playing and it is absolutely necessary to intervene, draw Ambroise's attention or the attention of Ambroise's partner to the fact that you need help.)

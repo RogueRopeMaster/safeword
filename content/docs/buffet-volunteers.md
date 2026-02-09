@@ -16,7 +16,7 @@ Try to keep the area clean. The trash cans are near the stairs.
 You have been assigned specific times for your shifts. Of course, punctuality will always be appreciated.
 
 If you are the first one (21-23) please be there right on time, or even a few minutes before.
-If you are followed by someone who just finished a play, or needs to go pee, do not run after him.
+If you are followed by someone who just finished a play, or needs to go pee, do not run after them.
 If you follow someone, talk to them and ask about what needs to be done just before they end their shift.
 
 ## Drinks
