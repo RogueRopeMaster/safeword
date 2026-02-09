@@ -1,0 +1,23 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+<section class="container page docs">
+  <div class="docs-layout">
+    {{ partial "docs-nav.html" . }}
+    <article class="docs-content">
+      <header>
+        <h1 class="title">
+          <a class="title-link" href="{{ .Permalink | safeURL }}">
+            {{ .Title }}
+          </a>
+        </h1>
+      </header>
+
+      {{ .Content }}
+    </article>
+  </div>
+</section>
+
+{{ partial "posts/math.html" . }}
+{{ end }}
