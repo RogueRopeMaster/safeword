@@ -9,7 +9,7 @@ weight: 5
 
 Here are some of the tasks that you will be asked to accomplish in order to guarantee the smooth running of the disassembly.
 
-I may not think of everything, so, of course, I (Ambre) will be there to guide you through it all. Don't hesitate to ask for further information.
+If anything is unclear, the lead (Ambre) will be there to guide you. Please ask if you need more information.
 
 I'll describe every room, what needs to be cleaned and where to put it.
 

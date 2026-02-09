@@ -6,11 +6,9 @@ draft: false
 
 Dear Volunteers,
 
-We are excited to welcome new volunteers for *Once Upon a Kink*. Your contributions are vital to making this event a success, and we can't wait to see it all come together.
+Thanks for offering to help with *Once Upon a Kink*. This section gives a quick overview of the volunteer roles and what each one involves.
 
-**Important Notes & Role Preparation**
-
-To ensure everything runs smoothly, please review the documentation for your role carefully:
+Pick a role below and read the briefing before you sign up:
 
 1. [**Dungeon Keepers**](/docs/dungeon-keepers/) — Safety-focused role overseeing play spaces, consent rules, and incident response.
 2. [**Shibari Keepers**](/docs/shibari-keepers/) — Focused on rope safety, calm space management, and respectful use of the garden area.
@@ -18,13 +16,14 @@ To ensure everything runs smoothly, please review the documentation for your rol
 4. [**Assemblers**](/docs/assemblers/) — Set up the venue before opening.
 5. [**Disassemblers**](/docs/disassemblers/) — Restore the venue after close.
 6. [**Food Prep**](/docs/food-prep/) — Prepare food before doors open so the buffet can run smoothly.
-7. [**Roadie Shift Saturday**](/docs/roadie-saturday/) — Help with transport and setup around noon on Saturday.
-8. [**Roadie Shift Sunday**](/docs/roadie-sunday/) — Help with loading and transport after the event on Sunday.
+7. [**Roadies**](/docs/roadies/) — Help load and unload the truck and move boxes (daytime, usually around noon).
 
-Your role ensures every aspect of the event comes together seamlessly, from setting up spaces and coordinating activities to ensuring our guests have an unforgettable experience. If you have any questions about your role or responsibilities, please don't hesitate to reach out.
+If your role takes place during the event, please arrive 15 minutes before the start of your shift so we can do a quick handover.
 
-We are incredibly grateful for your time, energy, and commitment, and we are excited to share this special event with you. Let's make *Once Upon a Kink* an unforgettable success!
+In the weeks before the event, volunteers will receive an invite to join the WhatsApp group for updates and coordination.
 
-With appreciation and excitement,
+Not sure which role fits you best, or have questions? Reach out via the [contact page](/contact/).
+
+With thanks,
 
 *Once Upon a Kink*

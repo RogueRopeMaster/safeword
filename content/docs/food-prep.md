@@ -11,19 +11,13 @@ Food prep volunteers help prepare food for the party before the event starts.
 
 ## When
 
-This shift starts at 15:00.
+This shift is a few hours of work in the afternoon.
 
-## Typical Tasks (Placeholder)
+## Typical Tasks
 
-- Prep ingredients and assemble dishes as instructed by the kitchen lead.
-- Keep prep surfaces clean and organized.
-- Label items for allergens and dietary info (veggie, vegan, gluten free).
-- Restock trays so buffet volunteers can focus on service.
-
-## What To Bring (Placeholder)
-
-- Closed-toe shoes.
-- Comfortable clothing you can work in.
+- Slice vegetables.
+- Make quiches.
+- Follow guidance from the kitchen lead. We will guide and help you.
 
 ## Questions
 
