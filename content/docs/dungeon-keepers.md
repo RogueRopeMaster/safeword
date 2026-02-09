@@ -75,6 +75,8 @@ An oilcloth and a wet towel are available on each floor (ground floor: near the 
 
 Here is a diagram of the risk areas. This diagram is not perfect because it does not take into account the type of impact, but it gives a good indication. A light impact (the cracker of a whip, for example) may be received on the stomach and lower back, for example.
 
+![Risk areas diagram](/images/risk-areas.png)
+
 ## Safeword
 
 If you hear a safeword, make sure it is respected. Check that the person does not need assistance. If the person seems to need it, take some time to chat with them and take them to the boudoir area.

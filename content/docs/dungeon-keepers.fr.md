@@ -75,6 +75,8 @@ Une toile cirée et une serviette mouillée sont disponibles à chaque étage (r
 
 Voici un schéma des zones à risque. Il n'est pas parfait car il ne prend pas en compte le type d'impact, mais il donne une bonne indication. Un impact léger (le claquement d'un fouet, par exemple) peut être reçu sur le ventre et le bas du dos, par exemple.
 
+![Schéma des zones à risque](/images/risk-areas.png)
+
 ## Safeword
 
 Si tu entends un safeword, assure-toi qu'il soit respecté. Vérifie que la personne n'a pas besoin d'assistance. Si elle semble en avoir besoin, prends un moment pour lui parler et emmène-la dans l'espace boudoir.
