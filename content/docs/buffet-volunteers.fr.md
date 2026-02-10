@@ -35,6 +35,8 @@ Tout ce qui est sur le buffet est au moins veggie, et certain·e·s plats sont v
 
 Il y a des snacks : cacahuètes, chips, fruits, gaufres, fromage, tomates cerises. Tu dois juste vérifier qu'il y en a assez. Les réserves se trouvent sous la table.
 
+Exemple de menu (varie selon l'evenement ; la liste exacte sera confirmee) :
+
 Dans le frigo, tu peux trouver :
 
 - 1 pissaladière

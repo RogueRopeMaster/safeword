@@ -35,6 +35,8 @@ Everything on the buffet is at least Veggie, and some are Vegan or Gluten free (
 
 There are some snacks: peanuts, chips, fruits, waffles, cheese, cherry tomatoes. You only have to check if there are enough of them, spare ones can be found under the table.
 
+Example menu (varies by event; actual items will be confirmed):
+
 In the fridge you can find:
 
 - 1 Pissaladiere
