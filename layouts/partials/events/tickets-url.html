@@ -1,0 +1,26 @@
+{{ $url := "" }}
+{{ $code := "" }}
+
+{{ with .Params.ticket_url }}
+  {{ $url = . }}
+{{ else }}
+  {{ with .Params.ticket_code }}
+    {{ $code = . }}
+  {{ else }}
+    {{ if in .Title ":" }}
+      {{ $parts := split .Title ":" }}
+      {{ $code = strings.TrimSpace (index $parts 0) }}
+    {{ else }}
+      {{ $matches := findRE `[A-Za-z]+[0-9]+` .Title 1 }}
+      {{ if gt (len $matches) 0 }}
+        {{ $code = index $matches 0 }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ if ne (strings.TrimSpace $code) "" }}
+    {{ $url = printf "https://tickets.safeword.be/%s/" (upper (strings.TrimSpace $code)) }}
+  {{ end }}
+{{ end }}
+
+{{ return $url }}

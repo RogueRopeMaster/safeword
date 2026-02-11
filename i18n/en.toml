@@ -1,0 +1,95 @@
+[events_kicker]
+other = "Once Upon A Kink"
+
+[events_lede]
+other = "Consent-forward nights in Brussels where fantasy, play, and community meet."
+
+[events_stats_label]
+other = "Event statistics"
+
+[events_stat_total]
+other = "Total events"
+
+[events_stat_upcoming]
+other = "Upcoming"
+
+[events_stat_years]
+other = "Years active"
+
+[events_chip_upcoming]
+other = "Upcoming"
+
+[events_chip_latest]
+other = "Latest event"
+
+[events_chip_archive]
+other = "Archive"
+
+[events_cta]
+other = "Open event"
+
+[events_upcoming]
+other = "Upcoming events"
+
+[events_empty_upcoming]
+other = "No upcoming events are currently listed. Check out previous editions below."
+
+[events_past]
+other = "Archive"
+
+[events_detail_kicker]
+other = "Event Night"
+
+[events_back_to_list]
+other = "Back to all events"
+
+[events_previous]
+other = "Previous event"
+
+[events_next]
+other = "Next event"
+
+[events_fetlife_available]
+other = "Also available on FetLife"
+
+[events_open_fetlife]
+other = "Open on FetLife"
+
+[events_open_tickets]
+other = "Open ticket shop"
+
+[events_latest]
+other = "Latest event"
+
+[events_latest_date]
+other = "Date"
+
+[events_none_short]
+other = "None listed"
+
+[events_all]
+other = "All events"
+
+[home_kicker]
+other = "Safeword Brussels"
+
+[home_cta_events]
+other = "Browse events"
+
+[home_cta_about]
+other = "Read about Safeword"
+
+[home_about_heading]
+other = "About Safeword"
+
+[home_about_cta]
+other = "Read the full about page"
+
+[home_events_heading]
+other = "Featured event"
+
+[home_events_none]
+other = "No events are listed yet. Check back soon."
+
+[home_about_fallback]
+other = "Safeword creates consent-forward events and supports projects around sexuality, kink, and care."

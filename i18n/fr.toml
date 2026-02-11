@@ -1,0 +1,95 @@
+[events_kicker]
+other = "Once Upon A Kink"
+
+[events_lede]
+other = "Soirees basees sur le consentement a Bruxelles, ou fantasme, jeu et communaute se rencontrent."
+
+[events_stats_label]
+other = "Statistiques des evenements"
+
+[events_stat_total]
+other = "Evenements totaux"
+
+[events_stat_upcoming]
+other = "A venir"
+
+[events_stat_years]
+other = "Annees actives"
+
+[events_chip_upcoming]
+other = "A venir"
+
+[events_chip_latest]
+other = "Dernier evenement"
+
+[events_chip_archive]
+other = "Archives"
+
+[events_cta]
+other = "Voir l'evenement"
+
+[events_upcoming]
+other = "Evenements a venir"
+
+[events_empty_upcoming]
+other = "Aucun evenement a venir pour le moment. Decouvrez les editions precedentes ci-dessous."
+
+[events_past]
+other = "Archives"
+
+[events_detail_kicker]
+other = "Soiree evenement"
+
+[events_back_to_list]
+other = "Retour a tous les evenements"
+
+[events_previous]
+other = "Evenement precedent"
+
+[events_next]
+other = "Evenement suivant"
+
+[events_fetlife_available]
+other = "Disponible aussi sur FetLife"
+
+[events_open_fetlife]
+other = "Ouvrir sur FetLife"
+
+[events_open_tickets]
+other = "Ouvrir la billetterie"
+
+[events_latest]
+other = "Dernier evenement"
+
+[events_latest_date]
+other = "Date"
+
+[events_none_short]
+other = "Aucun"
+
+[events_all]
+other = "Tous les evenements"
+
+[home_kicker]
+other = "Safeword Bruxelles"
+
+[home_cta_events]
+other = "Voir les evenements"
+
+[home_cta_about]
+other = "Lire la page a propos"
+
+[home_about_heading]
+other = "A propos de Safeword"
+
+[home_about_cta]
+other = "Lire la page complete"
+
+[home_events_heading]
+other = "Evenement en avant"
+
+[home_events_none]
+other = "Aucun evenement n'est encore liste. Revenez bientot."
+
+[home_about_fallback]
+other = "Safeword cree des evenements centres sur le consentement et soutient des projets autour de la sexualite, du kink et du care."

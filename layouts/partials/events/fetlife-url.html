@@ -1,0 +1,12 @@
+{{ $url := "" }}
+
+{{ with .Params.fetlife }}
+  {{ $url = . }}
+{{ else }}
+  {{ $matches := findRE `https?://(?:www\.)?fetlife\.com/events/[0-9]+` .RawContent 1 }}
+  {{ if gt (len $matches) 0 }}
+    {{ $url = index $matches 0 }}
+  {{ end }}
+{{ end }}
+
+{{ return $url }}
