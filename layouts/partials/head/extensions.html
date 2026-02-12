@@ -1,0 +1,22 @@
+{{ $ticketCode := "" }}
+
+{{ if .IsHome }}
+  {{ $ticketContext := partial "events/upcoming-ticket-context.html" . }}
+  {{ $ticketCode = index $ticketContext "ticketCode" }}
+{{ else if and .IsPage (eq .Section "events") }}
+  {{ $eventDate := partial "events/date-time.html" . }}
+  {{ $today := now.Format "2006-01-02" }}
+  {{ $isUpcoming := ge ($eventDate | time.Format "2006-01-02") $today }}
+  {{ if $isUpcoming }}
+    {{ $ticketCode = partial "events/ticket-code.html" . }}
+  {{ end }}
+{{ end }}
+
+{{ if ne (strings.TrimSpace $ticketCode) "" }}
+  <link rel="stylesheet" type="text/css" href="https://tickets.safeword.be/{{ $ticketCode }}/widget/v1.css" crossorigin>
+  {{ $widgetLang := .Site.Language.Lang | default "en" }}
+  {{ if not (in (slice "en" "fr") $widgetLang) }}
+    {{ $widgetLang = "en" }}
+  {{ end }}
+  <script type="text/javascript" src="https://tickets.safeword.be/widget/v1.{{ $widgetLang }}.js" async crossorigin></script>
+{{ end }}

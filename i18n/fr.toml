@@ -93,3 +93,15 @@ other = "Aucun evenement n'est encore liste. Revenez bientot."
 
 [home_about_fallback]
 other = "Safeword cree des evenements centres sur le consentement et soutient des projets autour de la sexualite, du kink et du care."
+
+[home_tickets_heading]
+other = "Billets"
+
+[home_tickets_event_label]
+other = "En vente pour"
+
+[home_tickets_noscript_prefix]
+other = "JavaScript est desactive dans votre navigateur. Pour acceder a notre billetterie sans JavaScript, veuillez"
+
+[home_tickets_noscript_link]
+other = "cliquer ici"

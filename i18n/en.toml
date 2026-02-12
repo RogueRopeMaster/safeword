@@ -93,3 +93,15 @@ other = "No events are listed yet. Check back soon."
 
 [home_about_fallback]
 other = "Safeword creates consent-forward events and supports projects around sexuality, kink, and care."
+
+[home_tickets_heading]
+other = "Tickets"
+
+[home_tickets_event_label]
+other = "Now selling for"
+
+[home_tickets_noscript_prefix]
+other = "JavaScript is disabled in your browser. To access our ticket shop without JavaScript, please"
+
+[home_tickets_noscript_link]
+other = "click here"

@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "content" }}
-  {{ $allPagesDesc := .Pages.ByDate.Reverse }}
+  {{ $allPagesDesc := sort .Pages "Params.event_date" "desc" }}
 
   <section class="container list events-hub">
     <header class="events-page-header">
@@ -17,6 +17,7 @@
       {{ range $allPagesDesc }}
         {{ $event := . }}
         {{ $imageAlt := $event.Params.image_alt | default (printf "Poster for %s" $event.Title) }}
+        {{ $eventDate := partial "events/date-time.html" $event }}
         {{ $titleCode := .Title }}
         {{ $titleSlogan := "" }}
         {{ if in .Title ":" }}
@@ -35,10 +36,10 @@
             {{ end }}
           </div>
           <div class="event-info">
-            <h3 class="event-title">
+            <h3 class="event-title{{ if eq $titleSlogan "" }} event-title-single{{ end }}">
               <span class="event-title-head">
-                <span class="event-title-code">{{ $titleCode }}</span>
-                <span class="event-card-date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</span>
+                <span class="event-title-code{{ if eq $titleSlogan "" }} event-title-code-full{{ end }}">{{ $titleCode }}</span>
+                <span class="event-card-date">{{ $eventDate | time.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</span>
               </span>
               {{ if ne $titleSlogan "" }}
                 <span class="event-title-slogan">{{ $titleSlogan }}</span>

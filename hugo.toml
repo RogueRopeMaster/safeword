@@ -4,6 +4,7 @@ title = "Safeword"
 theme = "hugo-coder"
 defaultContentLanguage = "en"
 enableEmoji = true
+ignoreFiles = ["^themes/hugo-coder/content/.*"]
 
 [pagination]
 pagerSize = 100
@@ -180,6 +181,11 @@ url = "mailto:contact@safeword.be"
   name = "Volunteers"
   weight = 3
   url = "volunteers"
+
+  [[languages.en.menu.main]]
+  name = "Blog"
+  weight = 4
+  url = "posts/"
   
   [[languages.en.menu.main]]
   name = "Contact"
@@ -210,6 +216,11 @@ url = "mailto:contact@safeword.be"
   name = "Bénévoles"
   weight = 3
   url = "volunteers/"
+
+  [[languages.fr.menu.main]]
+  name = "Blog"
+  weight = 4
+  url = "posts/"
   
   [[languages.fr.menu.main]]
   name = "Contact"

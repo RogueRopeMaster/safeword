@@ -27,7 +27,7 @@ Si quelque chose se passe pendant ton shift et que tu as besoin d'aide, communiq
 Un espace boudoir est disponible uniquement si une personne doit être isolée après un incident. Il se trouve au bout du hall d'entrée.
 
 À la fin de ton shift, fais un débrief avec le·la DK qui prend la suite. Partage les incidents et surtout s'il y a des personnes à garder à l'œil.
-Si une personne doit être sortie de la soirée (danger pour les autres, non-respect du consentement, ivresse, pratique interdite), ne le fais pas toi-même. Demande à quelqu'un de l'organisation de prendre le relais (Ambre, Ambroise, Hansf, Augustine, Doodler, Eldey).
+Si une personne doit être sortie de la soirée (danger pour les autres, non-respect du consentement, ivresse, pratique interdite), ne le fais pas toi-même. Demande à quelqu'un de l'organisation de prendre le relais (Ambre, Galante, Hansf, Augustine, Doodler, Eldey).
 
 Le point principal du rôle de DK, en plus d'une présence rassurante et d'une disponibilité visible, est l'observation. En général, demande-toi :
 
@@ -92,4 +92,4 @@ Si un groupe parle fort dans la playroom pendant que d'autres jouent calmement e
 
 ## Contact
 
-En cas de problème ou de question, Ambroise est la personne de référence pour l'équipe des Dungeon Keepers. N'hésite pas à aller la voir. (Si elle est en train de jouer et qu'il est vraiment nécessaire qu'elle intervienne, attire son attention ou celle de son·sa partenaire pour indiquer que tu as besoin d'elle.)
+En cas de problème ou de question, Galante est la personne de référence pour l'équipe des Dungeon Keepers. N'hésite pas à aller la voir. (Si elle est en train de jouer et qu'il est vraiment nécessaire qu'elle intervienne, attire son attention ou celle de son·sa partenaire pour indiquer que tu as besoin d'elle.)

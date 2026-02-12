@@ -7,9 +7,14 @@
   {{ $cleanBody := strings.TrimSpace $rawBody }}
   {{ $fetlifeURL := partial "events/fetlife-url.html" . }}
   {{ $ticketsURL := partial "events/tickets-url.html" . }}
+  {{ $ticketCode := partial "events/ticket-code.html" . }}
+  {{ $eventDate := partial "events/date-time.html" . }}
+  {{ $today := now.Format "2006-01-02" }}
+  {{ $isUpcoming := ge ($eventDate | time.Format "2006-01-02") $today }}
+  {{ $showTicketWidget := and $isUpcoming (ne (strings.TrimSpace $ticketsURL) "") (ne (strings.TrimSpace $ticketCode) "") }}
   {{ $currentPage := . }}
   {{ $pages := where .Site.RegularPages "Section" "events" }}
-  {{ $pages = $pages.ByDate.Reverse }}
+  {{ $pages = sort $pages "Params.event_date" "desc" }}
   {{ $curIndex := 0 }}
 
   {{ range $index, $page := $pages }}
@@ -35,7 +40,7 @@
             <h1 class="title">{{ .Title }}</h1>
             <p class="event-detail-date">
               <i class="fa-regular fa-calendar"></i>
-              {{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006") }}
+              {{ $eventDate | time.Format (.Site.Params.dateFormat | default "January 2, 2006") }}
             </p>
           </div>
         </div>
@@ -64,6 +69,31 @@
           {{ .Content }}
         {{ end }}
       </div>
+
+      {{ if $showTicketWidget }}
+        <section class="event-ticket-box">
+          <div class="event-ticket-box-head">
+            <h2>{{ i18n "home_tickets_heading" | default "Tickets" }}</h2>
+            <a class="event-fetlife-link" href="{{ $ticketsURL }}" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-ticket"></i>
+              {{ i18n "events_open_tickets" | default "Open ticket shop" }}
+            </a>
+          </div>
+          <div class="event-ticket-widget-shell">
+            <pretix-widget event="{{ $ticketsURL }}" single-item-select="button"></pretix-widget>
+            <noscript>
+              <div class="pretix-widget">
+                <div class="pretix-widget-info-message">
+                  {{ i18n "home_tickets_noscript_prefix" | default "JavaScript is disabled in your browser. To access our ticket shop without JavaScript, please" }}
+                  <a target="_blank" rel="noopener noreferrer" href="{{ $ticketsURL }}">
+                    {{ i18n "home_tickets_noscript_link" | default "click here" }}
+                  </a>.
+                </div>
+              </div>
+            </noscript>
+          </div>
+        </section>
+      {{ end }}
 
       <div class="event-navigation">
         {{ if gt $curIndex 0 }}

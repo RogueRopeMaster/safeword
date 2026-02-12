@@ -4,36 +4,34 @@ date: 2023-01-01
 draft: false
 ---
 
-# Contactez-nous
+Contactez-nous pour toute question, idee ou proposition de collaboration.
 
-N'hésitez pas à nous contacter pour toute question, commentaire ou demande.
+## Contact
 
-## Informations de contact
+- [contact@safeword.be](mailto:contact@safeword.be)
 
-- **Email**: [contact@safeword.be](mailto:contact@safeword.be)
-## Réseaux sociaux
+## Reseaux sociaux
 
 - [Fetlife](https://fetlife.com/Safeword_BE)
 - [Instagram](https://www.instagram.com/once.upon.a.kink)
 
-
-
-<form style="max-width: 500px; margin: 2rem auto; padding: 1.5rem; border: 1px solid #ddd; border-radius: 8px; display: block;" name="contact" netlify>
-<strong>Envoyer un message</strong>
-  <div style="margin-bottom: 1rem;">
-    <label for="name" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Name</label>
-    <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+<form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="contact">
+  <p class="contact-form-honeypot">
+    <label>Ne remplissez pas ce champ: <input name="bot-field"></label>
+  </p>
+  <p class="contact-form-title">Envoyer un message</p>
+  <div class="contact-form-field">
+    <label for="name">Nom</label>
+    <input type="text" id="name" name="name" required>
   </div>
-  
-  <div style="margin-bottom: 1rem;">
-    <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Email</label>
-    <input type="email" id="email" name="email" required style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+  <div class="contact-form-field">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
   </div>
-  
-  <div style="margin-bottom: 1rem;">
-    <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Message</label>
-    <textarea id="message" name="message" required style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; min-height: 100px; resize: vertical;"></textarea>
+  <div class="contact-form-field">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
   </div>
-  
-  <button type="submit" style="background: #007bff; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer;">Submit</button>
+  <button type="submit">Envoyer</button>
 </form>

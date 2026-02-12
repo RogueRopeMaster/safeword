@@ -73,7 +73,7 @@
         
         {{ $currentPage := . }}
         {{ $pages := where .Site.RegularPages "Section" "events" }}
-        {{ $pages := $pages.ByDate.Reverse }}
+        {{ $pages := sort $pages "Params.event_date" "desc" }}
         {{ $cur_index := 0 }}
         
         {{ range $index, $page := $pages }}

@@ -1,0 +1,17 @@
+{{ $code := "" }}
+
+{{ with .Params.ticket_code }}
+  {{ $code = upper (strings.TrimSpace .) }}
+{{ else }}
+  {{ if in .Title ":" }}
+    {{ $parts := split .Title ":" }}
+    {{ $code = upper (strings.TrimSpace (index $parts 0)) }}
+  {{ else }}
+    {{ $matches := findRE `[A-Za-z]+[0-9]+` .Title 1 }}
+    {{ if gt (len $matches) 0 }}
+      {{ $code = upper (strings.TrimSpace (index $matches 0)) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return $code }}
