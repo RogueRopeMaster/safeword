@@ -105,3 +105,24 @@ other = "JavaScript is disabled in your browser. To access our ticket shop witho
 
 [home_tickets_noscript_link]
 other = "click here"
+
+[skip_to_content]
+other = "Skip to content"
+
+[main_navigation]
+other = "Main navigation"
+
+[menu_toggle]
+other = "Toggle navigation"
+
+[pagination_label]
+other = "Pagination"
+
+[pagination_previous]
+other = "Previous"
+
+[pagination_next]
+other = "Next"
+
+[footer_built_with]
+other = "Built with"

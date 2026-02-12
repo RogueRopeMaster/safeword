@@ -2,17 +2,16 @@
 
 ## Project Structure & Module Organization
 - `content/` holds site content in Markdown (`events/`, `docs/`, `posts/`, etc.).
-- `layouts/` contains project-level Hugo template overrides (partials, section templates, single/list views).
-- `assets/css/docs.css` contains custom styling; `static/images/` stores images, icons, and manifest assets.
+- `layouts/` contains first-party Hugo templates (partials, section templates, single/list views, base layout).
+- `assets/css/site.css` and `assets/css/docs.css` contain custom styling; `assets/js/site.js` contains local behavior.
 - `i18n/` contains translation strings; `hugo.toml` defines menus, languages, and site params.
-- `themes/hugo-coder/` is the vendored upstream theme. Prefer overriding in `layouts/` or `assets/` before editing theme files.
 - `public/` is generated build output; do not hand-edit it.
 
 ## Build, Test, and Development Commands
 - `hugo server -D`: run the local dev server with drafts at `http://localhost:1313`.
 - `hugo`: generate a production build into `public/`.
 - `hugo --gc --minify`: optional pre-release check to garbage-collect and minify output.
-- `git submodule update --init --recursive && hugo`: Netlify build command (kept for deploy parity).
+- `hugo --gc --minify`: Netlify build command (deploy parity).
 
 ## Coding Style & Naming Conventions
 - Use Markdown with YAML front matter (`---` blocks) for content files.

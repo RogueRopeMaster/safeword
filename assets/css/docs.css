@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Manrope:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap");
-
 :root {
   --sw-font-display: "Syne", "Avenir Next Condensed", "Trebuchet MS", sans-serif;
   --sw-font-body: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
@@ -1397,9 +1395,13 @@ img {
     top: calc(100% + 0.2rem);
     margin-left: 0;
     gap: 0;
-    display: block;
+    display: none;
     width: auto;
     z-index: 50;
+  }
+
+  .navigation .navigation-list.is-open {
+    display: block;
   }
 
   .navigation .navigation-list .navigation-item a,

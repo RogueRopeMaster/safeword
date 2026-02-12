@@ -105,3 +105,24 @@ other = "JavaScript est desactive dans votre navigateur. Pour acceder a notre bi
 
 [home_tickets_noscript_link]
 other = "cliquer ici"
+
+[skip_to_content]
+other = "Aller au contenu"
+
+[main_navigation]
+other = "Navigation principale"
+
+[menu_toggle]
+other = "Afficher le menu"
+
+[pagination_label]
+other = "Pagination"
+
+[pagination_previous]
+other = "Precedent"
+
+[pagination_next]
+other = "Suivant"
+
+[footer_built_with]
+other = "Construit avec"
