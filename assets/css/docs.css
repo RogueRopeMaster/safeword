@@ -889,6 +889,10 @@ img {
   transition: transform 0.7s ease;
 }
 
+.events-grid .event-image {
+  object-position: 50% 15%;
+}
+
 .event-card:hover .event-image,
 .event-card:focus .event-image {
   transform: scale(1.04);
