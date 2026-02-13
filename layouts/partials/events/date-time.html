@@ -1,0 +1,6 @@
+{{ $eventDate := .Date }}
+{{ with .Params.event_date }}
+  {{ $eventDate = time.AsTime . }}
+{{ end }}
+
+{{ return $eventDate }}

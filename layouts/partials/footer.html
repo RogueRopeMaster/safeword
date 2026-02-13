@@ -1,0 +1,15 @@
+<footer class="footer">
+  <section class="container">
+    {{ $builtWith := i18n "footer_built_with" | default "Built with" }}
+    <p>
+      ©
+      {{ if and .Site.Params.since (lt .Site.Params.since now.Year) }}
+        {{ .Site.Params.since }} -
+      {{ end }}
+      {{ now.Year }}
+      {{ with .Site.Params.author }} {{ . }}{{ end }}
+      · {{ $builtWith }}
+      <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>
+    </p>
+  </section>
+</footer>

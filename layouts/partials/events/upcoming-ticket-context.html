@@ -1,0 +1,16 @@
+{{ $context := dict "event" nil "ticketCode" "" "ticketsURL" "" }}
+{{ $events := where .Site.RegularPages "Section" "events" }}
+{{ $events = sort $events "Params.event_date" "asc" }}
+{{ $today := now.Format "2006-01-02" }}
+{{ $upcoming := where $events "Params.event_date" "ge" $today }}
+
+{{ if gt (len $upcoming) 0 }}
+  {{ $event := index $upcoming 0 }}
+  {{ $ticketCode := partial "events/ticket-code.html" $event }}
+  {{ $ticketsURL := partial "events/tickets-url.html" $event }}
+  {{ if and (ne (strings.TrimSpace $ticketCode) "") (ne (strings.TrimSpace $ticketsURL) "") }}
+    {{ $context = dict "event" $event "ticketCode" $ticketCode "ticketsURL" $ticketsURL }}
+  {{ end }}
+{{ end }}
+
+{{ return $context }}

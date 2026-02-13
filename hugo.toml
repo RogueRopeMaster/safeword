@@ -1,7 +1,6 @@
 baseurl = "https://safeword.be"
 title = "Safeword"
 
-theme = "hugo-coder"
 defaultContentLanguage = "en"
 enableEmoji = true
 
@@ -15,7 +14,7 @@ pagerSize = 100
 
 [markup]
 [markup.highlight]
-noClasses = false
+noClasses = true
 
 [markup.goldmark]
 [markup.goldmark.renderer]
@@ -24,15 +23,13 @@ unsafe = true
 [params]
 author = "Safeword Asbl"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "sAFEWORDS website"
+description = "Consent-forward events and community resources from Safeword in Brussels."
 info = ["Kinky Events in Bxl and Beyond!"]
 keywords = "events"
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
 since = 2022
-# Git Commit in Footer, uncomment the line below to enable it
-# commit = "https://github.com/luizdepra/hugo-coder/tree/"
 # Right To Left, shift content direction for languages such as Arabic
 rtl = false
 # Specify light/dark colorscheme
@@ -41,10 +38,6 @@ rtl = false
 # "dark" (dark background, light foreground)
 # "light" (light background, dark foreground) (default)
 colorScheme = "dark"
-# Hide the toggle button, along with the associated vertical divider
-hideColorSchemeToggle = true
-# Series see also post count
-maxSeeAlsoItems = 5
 # Custom CSS
 customCSS = ["css/docs.css"]
 # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
@@ -153,6 +146,12 @@ icon = "fa-brands fa-gitlab fa-2x"
 weight = 2
 url = "https://fetlife.com/Safeword_BE/"
 
+[[params.social]]
+name = "Email"
+icon = "fa-solid fa-envelope fa-2x"
+weight = 3
+url = "mailto:contact@safeword.be"
+
 [languages]
   [languages.en]
   languageName = ":uk:"
@@ -173,7 +172,12 @@ url = "https://fetlife.com/Safeword_BE/"
   [[languages.en.menu.main]]
   name = "Volunteers"
   weight = 3
-  url = "volunteers"
+  url = "volunteers/"
+
+  [[languages.en.menu.main]]
+  name = "Info"
+  weight = 4
+  url = "posts/"
   
   [[languages.en.menu.main]]
   name = "Contact"
@@ -184,7 +188,7 @@ url = "https://fetlife.com/Safeword_BE/"
   languageName = ":fr:"
   title = "Safeword"
   weight = 2
-  info = ["Events in Bxl"]
+  info = ["Événements à Bruxelles"]
   
   [languages.fr.params]
   author = "Safeword Asbl"
@@ -204,6 +208,11 @@ url = "https://fetlife.com/Safeword_BE/"
   name = "Bénévoles"
   weight = 3
   url = "volunteers/"
+
+  [[languages.fr.menu.main]]
+  name = "Info"
+  weight = 4
+  url = "posts/"
   
   [[languages.fr.menu.main]]
   name = "Contact"

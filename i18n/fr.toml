@@ -1,0 +1,128 @@
+[events_kicker]
+other = "Once Upon A Kink"
+
+[events_lede]
+other = "Soirées basées sur le consentement à Bruxelles, où fantasme, jeu et communauté se rencontrent."
+
+[events_stats_label]
+other = "Statistiques des événements"
+
+[events_stat_total]
+other = "Événements totaux"
+
+[events_stat_upcoming]
+other = "À venir"
+
+[events_stat_years]
+other = "Années actives"
+
+[events_chip_upcoming]
+other = "Événement à venir"
+
+[events_chip_latest]
+other = "Événement précédent"
+
+[events_chip_archive]
+other = "Archives"
+
+[events_cta]
+other = "Voir l'événement"
+
+[events_upcoming]
+other = "Événements à venir"
+
+[events_empty_upcoming]
+other = "Aucun événement à venir pour le moment. Découvrez les éditions précédentes ci-dessous."
+
+[events_past]
+other = "Archives"
+
+[events_detail_kicker]
+other = "Soirée événement"
+
+[events_back_to_list]
+other = "Retour à tous les événements"
+
+[events_previous]
+other = "Événement précédent"
+
+[events_next]
+other = "Événement suivant"
+
+[events_fetlife_available]
+other = "Disponible aussi sur FetLife"
+
+[events_open_fetlife]
+other = "Ouvrir sur FetLife"
+
+[events_open_tickets]
+other = "Ouvrir la billetterie"
+
+[events_latest]
+other = "Dernier événement"
+
+[events_latest_date]
+other = "Date"
+
+[events_none_short]
+other = "Aucun"
+
+[events_all]
+other = "Tous les événements"
+
+[home_kicker]
+other = "Safeword Bruxelles"
+
+[home_cta_events]
+other = "Voir les événements"
+
+[home_cta_about]
+other = "Lire la page à propos"
+
+[home_about_heading]
+other = "À propos de Safeword"
+
+[home_about_cta]
+other = "Lire la page complète"
+
+[home_events_heading]
+other = "Événement en avant"
+
+[home_events_none]
+other = "Aucun événement n'est encore listé. Revenez bientôt."
+
+[home_about_fallback]
+other = "Safeword crée des événements centrés sur le consentement et soutient des projets autour de la sexualité, du kink et du care."
+
+[home_tickets_heading]
+other = "Billets"
+
+[home_tickets_event_label]
+other = "En vente pour"
+
+[home_tickets_noscript_prefix]
+other = "JavaScript est désactivé dans votre navigateur. Pour accéder à notre billetterie sans JavaScript, veuillez"
+
+[home_tickets_noscript_link]
+other = "cliquer ici"
+
+[skip_to_content]
+other = "Aller au contenu"
+
+[main_navigation]
+other = "Navigation principale"
+
+[menu_toggle]
+other = "Afficher le menu"
+
+[pagination_label]
+other = "Pagination"
+
+[pagination_previous]
+other = "Précédent"
+
+[pagination_next]
+other = "Suivant"
+
+[footer_built_with]
+other = "Construit avec"

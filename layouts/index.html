@@ -1,0 +1,172 @@
+{{ define "title" }}
+  {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+  {{ $allEvents := where .Site.RegularPages "Section" "events" }}
+  {{ $allEvents = sort $allEvents "Params.event_date" "asc" }}
+  {{ $today := now.Format "2006-01-02" }}
+  {{ $upcomingEvents := where $allEvents "Params.event_date" "ge" $today }}
+  {{ $pastEvents := where $allEvents "Params.event_date" "lt" $today }}
+  {{ $pastEvents = sort $pastEvents "Params.event_date" "desc" }}
+  {{ $featuredEvent := "" }}
+  {{ $featuredIsUpcoming := false }}
+  {{ $ticketContext := partial "events/upcoming-ticket-context.html" . }}
+  {{ $upcomingWidgetEvent := index $ticketContext "event" }}
+  {{ $upcomingWidgetTicketsURL := index $ticketContext "ticketsURL" }}
+
+  {{ if gt (len $upcomingEvents) 0 }}
+    {{ $featuredEvent = index $upcomingEvents 0 }}
+    {{ $featuredIsUpcoming = true }}
+  {{ else if gt (len $pastEvents) 0 }}
+    {{ $featuredEvent = index $pastEvents 0 }}
+  {{ end }}
+
+  {{ $aboutPage := .Site.GetPage "about" }}
+  {{ if not $aboutPage }}
+    {{ $aboutPage = .Site.GetPage "page" "about" }}
+  {{ end }}
+  {{ $aboutURL := "about/" | relLangURL }}
+  {{ $aboutBody := i18n "home_about_fallback" | markdownify }}
+  {{ if $aboutPage }}
+    {{ $aboutURL = $aboutPage.RelPermalink }}
+    {{ $aboutRaw := replaceRE `(?ms)^\s*#\s+.+?\n+` "" $aboutPage.RawContent }}
+    {{ $aboutTrimmed := strings.TrimSpace $aboutRaw }}
+    {{ if ne $aboutTrimmed "" }}
+      {{ $aboutBody = $aboutTrimmed | markdownify }}
+    {{ else }}
+      {{ $aboutBody = $aboutPage.Content }}
+    {{ end }}
+  {{ end }}
+
+  {{ $siteInfo := i18n "events_lede" | default "Consent-forward nights in Brussels where fantasy, play, and community meet." }}
+  {{ with .Site.Params.info }}
+    {{ if reflect.IsSlice . }}
+      {{ $siteInfo = delimit . " · " }}
+    {{ else }}
+      {{ $siteInfo = . }}
+    {{ end }}
+  {{ end }}
+
+  <section class="container home-shell">
+    <header class="home-hero">
+      <div class="home-hero-main">
+        <p class="home-kicker">{{ i18n "home_kicker" | default "Safeword Brussels" }}</p>
+        <h1>{{ .Site.Title }}</h1>
+        <p class="home-lede">{{ $siteInfo }}</p>
+        <div class="home-actions">
+          <a class="home-button" href="{{ "events/" | relLangURL }}">{{ i18n "home_cta_events" | default "Browse events" }}</a>
+          <a class="home-button home-button-muted" href="{{ $aboutURL }}">{{ i18n "home_cta_about" | default "Read about Safeword" }}</a>
+        </div>
+        <div class="home-social">
+          {{ partialCached "home/social.html" . }}
+        </div>
+      </div>
+      <div class="home-hero-visual" aria-hidden="true">
+        {{ partialCached "home/avatar.html" . }}
+      </div>
+    </header>
+
+    <div class="home-grid">
+      <article class="home-block home-about-block">
+        <div class="home-block-head">
+          <h2>{{ i18n "home_about_heading" | default "About Safeword" }}</h2>
+        </div>
+        <div class="home-about-content">
+          {{ $aboutBody }}
+        </div>
+        <a class="home-inline-link" href="{{ $aboutURL }}">
+          {{ i18n "home_about_cta" | default "Read the full about page" }}
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </article>
+
+      <aside class="home-block home-event-block">
+        <div class="home-block-head">
+          <h2>{{ i18n "home_events_heading" | default "Featured event" }}</h2>
+          <a class="home-inline-link home-inline-link-small" href="{{ "events/" | relLangURL }}">
+            {{ i18n "events_all" | default "All events" }}
+          </a>
+        </div>
+
+        {{ with $featuredEvent }}
+          {{ $featuredChip := i18n "events_chip_latest" | default "Previous event" }}
+          {{ if $featuredIsUpcoming }}
+            {{ $featuredChip = i18n "events_chip_upcoming" | default "Upcoming event" }}
+          {{ end }}
+          {{ $featuredImageAlt := .Params.image_alt | default (printf "Poster for %s" .Title) }}
+          {{ $featuredEventDate := partial "events/date-time.html" . }}
+          {{ $fetlifeURL := partial "events/fetlife-url.html" . }}
+          {{ $ticketsURL := partial "events/tickets-url.html" . }}
+
+          <a href="{{ .RelPermalink }}" class="events-feature home-feature-card">
+            <div class="events-feature-media">
+              {{ if .Params.image }}
+                <img src="{{ .Params.image }}" alt="{{ $featuredImageAlt }}">
+              {{ else }}
+                <div class="events-feature-fallback" aria-hidden="true">
+                  <i class="fa-solid fa-masks-theater"></i>
+                </div>
+              {{ end }}
+              <span class="events-feature-chip">{{ $featuredChip }}</span>
+            </div>
+            <div class="events-feature-body">
+              <p class="events-feature-date">{{ $featuredEventDate | time.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</p>
+              <h3>{{ .Title }}</h3>
+            </div>
+          </a>
+
+          <div class="home-feature-actions">
+            <a class="home-inline-link" href="{{ .RelPermalink }}">
+              {{ i18n "events_cta" | default "Open event" }}
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            {{ if and $featuredIsUpcoming (ne $ticketsURL "") }}
+              <a class="home-inline-link home-inline-link-small" href="{{ $ticketsURL }}" target="_blank" rel="noopener noreferrer">
+                {{ i18n "events_open_tickets" | default "Open ticket shop" }}
+                <i class="fa-solid fa-ticket"></i>
+              </a>
+            {{ end }}
+            {{ if ne $fetlifeURL "" }}
+              <a class="home-inline-link home-inline-link-small" href="{{ $fetlifeURL }}" target="_blank" rel="noopener noreferrer">
+                {{ i18n "events_open_fetlife" | default "Open on FetLife" }}
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+            {{ end }}
+          </div>
+        {{ else }}
+          <p class="events-empty">{{ i18n "home_events_none" | default "No events are listed yet. Check back soon." }}</p>
+        {{ end }}
+      </aside>
+
+      {{ with $upcomingWidgetEvent }}
+        <aside class="home-block home-ticket-block">
+          <div class="home-block-head">
+            <h2>{{ i18n "home_tickets_heading" | default "Tickets" }}</h2>
+            <a class="home-inline-link home-inline-link-small" href="{{ .RelPermalink }}">
+              {{ i18n "events_cta" | default "Open event" }}
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+          <p class="home-ticket-event">
+            {{ i18n "home_tickets_event_label" | default "Now selling for" }}
+            <strong>{{ .Title }}</strong>
+          </p>
+          <div class="home-ticket-widget-shell">
+            <pretix-widget event="{{ $upcomingWidgetTicketsURL }}" single-item-select="button"></pretix-widget>
+            <noscript>
+              <div class="pretix-widget">
+                <div class="pretix-widget-info-message">
+                  {{ i18n "home_tickets_noscript_prefix" | default "JavaScript is disabled in your browser. To access our ticket shop without JavaScript, please" }}
+                  <a target="_blank" rel="noopener noreferrer" href="{{ $upcomingWidgetTicketsURL }}">
+                    {{ i18n "home_tickets_noscript_link" | default "click here" }}
+                  </a>.
+                </div>
+              </div>
+            </noscript>
+          </div>
+        </aside>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

@@ -4,11 +4,17 @@ date: 2026-02-09
 draft: false
 ---
 
-Bonjour à tou·te·s,
+Bonjour à toutes et à tous,
 
-Merci d'avoir proposé ton aide pour *Once Upon a Kink*. Cette section donne un aperçu des rôles bénévoles et de ce que chacun implique.
+Merci d'avoir proposé ton aide pour *Once Upon a Kink*. Cette section donne un aperçu des rôles bénévoles et de ce que chaque mission implique.
 
-Choisis un role ci-dessous et lis le briefing avant de t'inscrire :
+Nos tickets partent généralement en quelques minutes, donc avoir une place peut vite devenir une question de chance.
+
+Chaque édition repose sur 18 shifts bénévoles à pourvoir.
+
+Les bénévoles ont un tarif réduit et peuvent venir avec jusqu'à deux ami·es.
+
+Choisis un rôle ci-dessous et lis le briefing avant de t'inscrire :
 
 1. [**Dungeon Keepers**](dungeon-keepers/) — Rôle axé sur la sécurité : veiller aux espaces de jeu, aux règles de consentement et à la gestion d'incidents.
 2. [**Shibari Keepers**](shibari-keepers/) — Axé sur la sécurité des cordes, la gestion d'un espace calme, et le respect de la zone "Garden".
@@ -18,7 +24,7 @@ Choisis un role ci-dessous et lis le briefing avant de t'inscrire :
 6. [**Food Prep**](food-prep/) — Préparations cuisine avant l'ouverture, pour que le buffet tourne sans accroc.
 7. [**Roadies**](roadies/) — Aider à charger/décharger le camion et à bouger des cartons (en journée, souvent vers midi).
 
-Le bénévolat est aussi l'un des meilleurs moyens de sécuriser ta place à un événement qui affiche complet très vite. Chaque bénévole peut obtenir jusqu'à deux tickets supplémentaires pour des ami·e·s.
+Le bénévolat est l'un des meilleurs moyens de sécuriser ta place.
 
 Si ton rôle se déroule pendant l'événement, merci d'arriver 15 minutes avant le début de ton shift pour faire un rapide passage de relais.
 
