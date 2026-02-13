@@ -4,7 +4,18 @@
 <nav class="navigation" aria-label="{{ $mainNavLabel }}">
   <section class="container">
     {{ with .Site }}
-      <a class="navigation-title" href="{{ .Home.RelPermalink }}">{{ .Title }}</a>
+      <a class="navigation-title" href="{{ .Home.RelPermalink }}">
+        <img
+          class="navigation-brand-icon"
+          src="{{ "/images/favicon-32x32.png" | relURL }}"
+          srcset="{{ "/images/favicon-32x32.png" | relURL }} 1x, {{ "/images/favicon-96x96.png" | relURL }} 3x"
+          width="32"
+          height="32"
+          alt=""
+          aria-hidden="true"
+          decoding="async">
+        <span>{{ .Title }}</span>
+      </a>
     {{ end }}
 
     {{ if or .Site.Menus.main hugo.IsMultilingual }}

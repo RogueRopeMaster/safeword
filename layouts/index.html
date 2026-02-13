@@ -90,9 +90,9 @@
         </div>
 
         {{ with $featuredEvent }}
-          {{ $featuredChip := i18n "events_chip_latest" | default "Latest event" }}
+          {{ $featuredChip := i18n "events_chip_latest" | default "Previous event" }}
           {{ if $featuredIsUpcoming }}
-            {{ $featuredChip = i18n "events_chip_upcoming" | default "Upcoming" }}
+            {{ $featuredChip = i18n "events_chip_upcoming" | default "Upcoming event" }}
           {{ end }}
           {{ $featuredImageAlt := .Params.image_alt | default (printf "Poster for %s" .Title) }}
           {{ $featuredEventDate := partial "events/date-time.html" . }}
@@ -121,7 +121,7 @@
               {{ i18n "events_cta" | default "Open event" }}
               <i class="fa-solid fa-arrow-right"></i>
             </a>
-            {{ if ne $ticketsURL "" }}
+            {{ if and $featuredIsUpcoming (ne $ticketsURL "") }}
               <a class="home-inline-link home-inline-link-small" href="{{ $ticketsURL }}" target="_blank" rel="noopener noreferrer">
                 {{ i18n "events_open_tickets" | default "Open ticket shop" }}
                 <i class="fa-solid fa-ticket"></i>

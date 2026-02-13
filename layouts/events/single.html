@@ -54,7 +54,7 @@
             {{ i18n "events_open_fetlife" | default "Open on FetLife" }}
           </a>
         {{ end }}
-        {{ if ne $ticketsURL "" }}
+        {{ if and $isUpcoming (ne $ticketsURL "") }}
           <a class="event-fetlife-link" href="{{ $ticketsURL }}" target="_blank" rel="noopener noreferrer">
             <i class="fa-solid fa-ticket"></i>
             {{ i18n "events_open_tickets" | default "Open ticket shop" }}
@@ -99,7 +99,7 @@
         {{ if gt $curIndex 0 }}
           {{ $prevIndex := sub $curIndex 1 }}
           {{ $prevPage := index $pages $prevIndex }}
-          <a href="{{ $prevPage.Permalink }}" class="event-nav-button event-nav-previous">
+          <a href="{{ $prevPage.RelPermalink }}" class="event-nav-button event-nav-previous">
             <span class="event-nav-direction">
               <i class="fa-solid fa-arrow-left"></i>
               {{ i18n "events_previous" | default "Previous event" }}
@@ -113,7 +113,7 @@
         {{ if lt $curIndex (sub (len $pages) 1) }}
           {{ $nextIndex := add $curIndex 1 }}
           {{ $nextPage := index $pages $nextIndex }}
-          <a href="{{ $nextPage.Permalink }}" class="event-nav-button event-nav-next">
+          <a href="{{ $nextPage.RelPermalink }}" class="event-nav-button event-nav-next">
             <span class="event-nav-direction">
               {{ i18n "events_next" | default "Next event" }}
               <i class="fa-solid fa-arrow-right"></i>

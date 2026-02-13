@@ -17,10 +17,10 @@ other = "Upcoming"
 other = "Years active"
 
 [events_chip_upcoming]
-other = "Upcoming"
+other = "Upcoming event"
 
 [events_chip_latest]
-other = "Latest event"
+other = "Previous event"
 
 [events_chip_archive]
 other = "Archive"

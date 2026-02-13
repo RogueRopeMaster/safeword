@@ -17,10 +17,10 @@ other = "A venir"
 other = "Annees actives"
 
 [events_chip_upcoming]
-other = "A venir"
+other = "Evenement a venir"
 
 [events_chip_latest]
-other = "Dernier evenement"
+other = "Evenement precedent"
 
 [events_chip_archive]
 other = "Archives"

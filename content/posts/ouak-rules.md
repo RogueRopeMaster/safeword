@@ -4,6 +4,7 @@ date: 2026-02-12
 draft: false
 tags: ["ouak", "rules", "consent", "safety"]
 categories: ["events"]
+aliases: ["/rules"]
 ---
 
 ## Arrival and Departure

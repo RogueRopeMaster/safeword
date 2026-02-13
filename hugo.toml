@@ -175,7 +175,7 @@ url = "mailto:contact@safeword.be"
   url = "volunteers/"
 
   [[languages.en.menu.main]]
-  name = "Blog"
+  name = "Info"
   weight = 4
   url = "posts/"
   
@@ -210,7 +210,7 @@ url = "mailto:contact@safeword.be"
   url = "volunteers/"
 
   [[languages.fr.menu.main]]
-  name = "Blog"
+  name = "Info"
   weight = 4
   url = "posts/"
   

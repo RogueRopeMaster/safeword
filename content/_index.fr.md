@@ -10,7 +10,7 @@ Ceci est la page d'accueil du site web Safeword. Remplacez ce contenu par votre 
 
 ## Articles Récents
 
-Consultez nos derniers articles de blog et mises à jour.
+Consultez nos dernières infos et mises à jour.
 
 ## Projets
 
