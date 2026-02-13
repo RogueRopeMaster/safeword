@@ -6,38 +6,38 @@ tags: ["event", "play", "community"]
 categories: ["events"]
 ---
 
-Once Upon a Kink is a kinky party focused on interactions and plays. It's an event where people can express themselves.
+Once Upon a Kink est une soirée kinky centrée sur les interactions et le jeu. C'est un événement où chacun·e peut s'exprimer.
 
-Please, respect your fellow kinksters and keep in mind that the party is LGBT-friendly. Intolerance and racism will be banned with no regrets.
+Merci de respecter les autres kinksters et de garder en tête que la soirée est LGBT-friendly. L'intolérance et le racisme entraînent une exclusion immédiate.
 
-In a comfy and cosy atmosphere, you will find two rooms with two different moods. A calm space where cuddles and shibari will reign and a space for noisier and dirtier play (and we know how naughty you like to be).
+Dans une ambiance cosy et confortable, tu trouveras deux salles avec deux ambiances différentes : un espace calme pour les câlins et le shibari, et un espace pour des jeux plus bruyants et plus intenses (et on sait à quel point tu peux aimer ça).
 
-## LOCATION
+## LIEU
 
-The event is hosted in the Boxon/Alternee. Doors will be open from 9pm to 11pm. After that, all entry will be refused. The event closes at 3am.
+L'événement est organisé au Boxon/Alternée. Les portes sont ouvertes de 21 h à 23 h. Après cela, aucune entrée n'est acceptée. La soirée se termine à 3 h.
 
-The address will be provided with the confirmation of your entry in the guest list by mail.
+L'adresse est envoyée par e-mail avec la confirmation de ton entrée sur la guest list.
 
 ## FAITHFUL FRIENDS
 
-Also, we ask you to find one or two faithful friends. The price is really cheap, there is no cooptation system, and the event is open to new people.
+Nous te demandons aussi de venir avec un ou deux faithful friends. Le prix est volontairement accessible, il n'y a pas de système de cooptation, et l'événement est ouvert à de nouvelles personnes.
 
-So in order to keep the environment as safe as possible, we ask you to keep an eye on each other. If one person is asked by the staff to leave the party, their pair or trio will follow (and depending on the inconvenience, may potentially be blacklisted).
+Pour garder l'environnement le plus safe possible, nous vous demandons de veiller les un·es sur les autres. Si une personne est invitée par le staff à quitter la soirée, son binôme ou son trio la suit (et, selon la situation, peut être blacklisté).
 
-You can enter the party when your group is present at the door and not before. You can leave whenever you want.
+Vous pouvez entrer quand votre groupe est présent à la porte, pas avant. Vous pouvez partir quand vous voulez.
 
-## DRESSCODE
+## CODE VESTIMENTAIRE
 
-The night is ours... well beyond midnight. There will be no limit to your imagination.
+La nuit est à nous... bien après minuit. Il n'y a pas de limite à ton imagination.
 
-We know that black leather and latex isn't for every wallet or taste, and we would be pained to know that it could restrain you from expressing yourself.
+Nous savons que le cuir noir et le latex ne conviennent pas à tous les budgets ni à tous les goûts, et nous trouverions dommage que cela t'empêche de t'exprimer.
 
-Even if there is no so-called dress code, we would love to see you dressed in your kinky fantasies. There will be a space to change outfits but no lockers, so please be farsighted.
+Même s'il n'y a pas de dress code strict, nous serions ravi·es de vous voir habillé·es selon vos fantasmes kinky. Un espace pour vous changer est prévu, mais sans casiers fermés : anticipez.
 
-## DRINKS
+## BOISSONS
 
-One of our first goals is to create an event with a democratic price. With that point in mind, we decided to put the entry at 35 euros.
+L'un de nos premiers objectifs est de proposer un événement à prix démocratique. Dans cette logique, nous avons fixé l'entrée à 35 euros.
 
-In that price is included access to a buffet and drinks. As the event is focused on play, we will not serve any spirits, but soft drinks and a little bit of wine and beer.
+Ce prix inclut l'accès au buffet et aux boissons. Comme l'événement est orienté jeu, nous ne servons pas de spiritueux, mais des softs, ainsi qu'un peu de bière et de vin.
 
-Included, we prepared for you a beautiful eco cup.
+Une belle éco-cup est également incluse.

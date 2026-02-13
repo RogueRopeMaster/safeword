@@ -2,52 +2,52 @@
 other = "Once Upon A Kink"
 
 [events_lede]
-other = "Soirees basees sur le consentement a Bruxelles, ou fantasme, jeu et communaute se rencontrent."
+other = "Soirées basées sur le consentement à Bruxelles, où fantasme, jeu et communauté se rencontrent."
 
 [events_stats_label]
-other = "Statistiques des evenements"
+other = "Statistiques des événements"
 
 [events_stat_total]
-other = "Evenements totaux"
+other = "Événements totaux"
 
 [events_stat_upcoming]
-other = "A venir"
+other = "À venir"
 
 [events_stat_years]
-other = "Annees actives"
+other = "Années actives"
 
 [events_chip_upcoming]
-other = "Evenement a venir"
+other = "Événement à venir"
 
 [events_chip_latest]
-other = "Evenement precedent"
+other = "Événement précédent"
 
 [events_chip_archive]
 other = "Archives"
 
 [events_cta]
-other = "Voir l'evenement"
+other = "Voir l'événement"
 
 [events_upcoming]
-other = "Evenements a venir"
+other = "Événements à venir"
 
 [events_empty_upcoming]
-other = "Aucun evenement a venir pour le moment. Decouvrez les editions precedentes ci-dessous."
+other = "Aucun événement à venir pour le moment. Découvrez les éditions précédentes ci-dessous."
 
 [events_past]
 other = "Archives"
 
 [events_detail_kicker]
-other = "Soiree evenement"
+other = "Soirée événement"
 
 [events_back_to_list]
-other = "Retour a tous les evenements"
+other = "Retour à tous les événements"
 
 [events_previous]
-other = "Evenement precedent"
+other = "Événement précédent"
 
 [events_next]
-other = "Evenement suivant"
+other = "Événement suivant"
 
 [events_fetlife_available]
 other = "Disponible aussi sur FetLife"
@@ -59,7 +59,7 @@ other = "Ouvrir sur FetLife"
 other = "Ouvrir la billetterie"
 
 [events_latest]
-other = "Dernier evenement"
+other = "Dernier événement"
 
 [events_latest_date]
 other = "Date"
@@ -68,31 +68,31 @@ other = "Date"
 other = "Aucun"
 
 [events_all]
-other = "Tous les evenements"
+other = "Tous les événements"
 
 [home_kicker]
 other = "Safeword Bruxelles"
 
 [home_cta_events]
-other = "Voir les evenements"
+other = "Voir les événements"
 
 [home_cta_about]
-other = "Lire la page a propos"
+other = "Lire la page à propos"
 
 [home_about_heading]
-other = "A propos de Safeword"
+other = "À propos de Safeword"
 
 [home_about_cta]
-other = "Lire la page complete"
+other = "Lire la page complète"
 
 [home_events_heading]
-other = "Evenement en avant"
+other = "Événement en avant"
 
 [home_events_none]
-other = "Aucun evenement n'est encore liste. Revenez bientot."
+other = "Aucun événement n'est encore listé. Revenez bientôt."
 
 [home_about_fallback]
-other = "Safeword cree des evenements centres sur le consentement et soutient des projets autour de la sexualite, du kink et du care."
+other = "Safeword crée des événements centrés sur le consentement et soutient des projets autour de la sexualité, du kink et du care."
 
 [home_tickets_heading]
 other = "Billets"
@@ -101,7 +101,7 @@ other = "Billets"
 other = "En vente pour"
 
 [home_tickets_noscript_prefix]
-other = "JavaScript est desactive dans votre navigateur. Pour acceder a notre billetterie sans JavaScript, veuillez"
+other = "JavaScript est désactivé dans votre navigateur. Pour accéder à notre billetterie sans JavaScript, veuillez"
 
 [home_tickets_noscript_link]
 other = "cliquer ici"
@@ -119,7 +119,7 @@ other = "Afficher le menu"
 other = "Pagination"
 
 [pagination_previous]
-other = "Precedent"
+other = "Précédent"
 
 [pagination_next]
 other = "Suivant"

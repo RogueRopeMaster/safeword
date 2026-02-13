@@ -4,13 +4,13 @@ date: 2023-01-01
 draft: false
 ---
 
-Contactez-nous pour toute question, idee ou proposition de collaboration.
+Contactez-nous pour toute question, idée ou proposition de collaboration.
 
 ## Contact
 
 - [contact@safeword.be](mailto:contact@safeword.be)
 
-## Reseaux sociaux
+## Réseaux sociaux
 
 - [Fetlife](https://fetlife.com/Safeword_BE)
 - [Instagram](https://www.instagram.com/once.upon.a.kink)

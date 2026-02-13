@@ -188,7 +188,7 @@ url = "mailto:contact@safeword.be"
   languageName = ":fr:"
   title = "Safeword"
   weight = 2
-  info = ["Events in Bxl"]
+  info = ["Événements à Bruxelles"]
   
   [languages.fr.params]
   author = "Safeword Asbl"

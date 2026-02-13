@@ -46,7 +46,7 @@ Si une pratique est déclenchante (dans le cadre de nos règles), merci de la re
 La zone "Garden" : à l'étage. Cette pièce est pour le shibari, les câlins, le sexe, et d'autres pratiques BDSM plutôt calmes.
 Cette pièce est adjacente à des habitations.
 
-Espaces ou le jeu est interdit :
+Espaces où le jeu est interdit :
 Le jeu est interdit dans tout le reste : buffet, couloirs, escaliers, fumoir, toilettes, salle de douche, et cuisine du deuxième étage.
 
 ## Hard-Play

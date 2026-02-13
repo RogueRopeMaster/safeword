@@ -38,7 +38,7 @@ Merci d'aider à faire vivre l'OUAK.
 
 ### Hard room
 
-- Mettre le lit simple au milieu de la piece
+- Mettre le lit simple au milieu de la pièce
 - Mettre la bâche vinyle
 
 ### Salle shibari et câlins
