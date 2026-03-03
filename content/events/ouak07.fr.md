@@ -1,0 +1,14 @@
+---
+title: "OUAK07 : Les trois petits cochons feraient un festin délicieux. "
+date: 2024-08-24
+event_date: 2024-08-24
+url: "/fr/events/OUAK07/"
+draft: false
+tags: ["événement"]
+categories: ["événements"]
+image: "/images/ouak07-min.png"
+image_alt: "Affiche OUAK07 : trio inspiré des Trois Petits Cochons, avec masques de cochon et tenue latex rose."
+---
+![Affiche OUAK07 : trio inspiré des Trois Petits Cochons, avec masques de cochon et tenue latex rose.](/images/ouak07-min.png)
+
+> "Get your dirty minds ready for a wonderful party !" - https://fetlife.com/events/1556451

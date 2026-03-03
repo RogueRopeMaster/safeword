@@ -1,0 +1,14 @@
+---
+title: "OUAK08 : Comment quelque chose d'aussi beau peut-il être caché dans quelque chose d'aussi effrayant ?"
+date: 2024-12-21
+event_date: 2024-12-21
+url: "/fr/events/OUAK08/"
+draft: false
+tags: ["événement"]
+categories: ["événements"]
+image: "/images/ouak08-min.png"
+image_alt: "Affiche OUAK08 : cavalière rousse relevant un masque de cheval noir, avec corset et rênes dans une ambiance sombre."
+---
+![Affiche OUAK08 : cavalière rousse relevant un masque de cheval noir, avec corset et rênes dans une ambiance sombre.](/images/ouak08-min.png)
+
+> "Hop in the saddle and participate to a great party !" - https://fetlife.com/events/1622744

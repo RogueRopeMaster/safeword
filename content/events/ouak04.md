@@ -1,0 +1,15 @@
+---
+title: "OUAK04 : Perhaps a burning match might do some good."
+date: 2023-11-25
+event_date: 2023-11-25
+url: "/events/OUAK04/"
+draft: false
+tags: ["event"]
+categories: ["events"]
+image: "/images/ouak04-min.png"
+image_alt: "OUAK04 poster: dark candlelit scene with a black-gloved figure and dripping wax candles around her."
+---
+
+![OUAK04 poster: dark candlelit scene with a black-gloved figure and dripping wax candles around her.](/images/ouak04-min.png)
+
+> "Bring a candle and a bit of your heat. Shall we have a talk before lighting it up, my dear ?" - https://fetlife.com/events/1364770

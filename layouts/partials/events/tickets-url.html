@@ -1,0 +1,12 @@
+{{ $url := "" }}
+{{ $code := partial "events/ticket-code.html" . }}
+
+{{ with .Params.ticket_url }}
+  {{ $url = . }}
+{{ end }}
+
+{{ if and (eq (strings.TrimSpace $url) "") (ne (strings.TrimSpace $code) "") }}
+  {{ $url = printf "https://tickets.safeword.be/%s/" (upper (strings.TrimSpace $code)) }}
+{{ end }}
+
+{{ return $url }}

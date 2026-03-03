@@ -1,0 +1,19 @@
+---
+title: "OUAK11 : Était-il son prisonnier... ou était-elle sa prisonnière ?"
+date: 2025-11-08
+event_date: 2025-11-08
+url: "/fr/events/OUAK11/"
+draft: false
+tags: ["événement"]
+categories: ["événements"]
+image: "/images/ouak11-min.jpg"
+image_alt: "Affiche OUAK11 : scène inspirée de La Belle et la Bête, une créature lupine enlace une femme sous un ciel étoilé."
+fetlife: "https://fetlife.com/events/1888744"
+---
+![Affiche OUAK11 : scène inspirée de La Belle et la Bête, une créature lupine enlace une femme sous un ciel étoilé.](/images/ouak11-min.jpg)
+
+Était-il son prisonnier... ou était-elle sa prisonnière ?
+
+**Quand**  
+Sam, 8 nov 2025 — 21:00  
+Jusqu'au : dim, 9 nov 2025 — 03:00

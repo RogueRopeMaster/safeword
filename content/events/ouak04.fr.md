@@ -1,0 +1,16 @@
+---
+title: "OUAK04 : Peut-être qu'une allumette enflammée pourrait faire du bien."
+date: 2023-11-25
+event_date: 2023-11-25
+url: "/fr/events/OUAK04/"
+draft: false
+tags: ["événement"]
+categories: ["événements"]
+image: "/images/ouak04-min.png"
+image_alt: "Affiche OUAK04 : scène sombre a la bougie, avec une figure en longs gants noirs entourée de cierges et de cire coulée."
+---
+
+
+![Affiche OUAK04 : scène sombre a la bougie, avec une figure en longs gants noirs entourée de cierges et de cire coulée.](/images/ouak04-min.png)
+
+> "Bring a candle and a bit of your heat. Shall we have a talk before lighting it up, my dear ?" - https://fetlife.com/events/1364770

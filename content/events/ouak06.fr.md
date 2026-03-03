@@ -1,0 +1,14 @@
+---
+title: "OUAK06 : Narcisse ne tombe pas amoureux de son reflet parce qu'il est beau, mais parce qu'il est le sien."
+date: 2024-05-25
+event_date: 2024-05-25
+url: "/fr/events/OUAK06/"
+draft: false
+tags: ["événement"]
+categories: ["événements"]
+image: "/images/ouak06-min.png"
+image_alt: "Affiche OUAK06 : une personne se regarde dans un miroir et voit un reflet masque en latex, dans une pièce carrelée rose."
+---
+![Affiche OUAK06 : une personne se regarde dans un miroir et voit un reflet masque en latex, dans une pièce carrelée rose.](/images/ouak06-min.png)
+
+> "Let's express your true self, if you don't fear to love it." - https://fetlife.com/events/1483578

@@ -1,0 +1,14 @@
+---
+title: "OUAK07 : The tree little pigs would make a lovely feast."
+date: 2024-08-24
+event_date: 2024-08-24
+url: "/events/OUAK07/"
+draft: false
+tags: ["event"]
+categories: ["events"]
+image: "/images/ouak07-min.png"
+image_alt: "OUAK07 poster: Three Little Pigs-inspired trio with pig masks and a pink latex outfit."
+---
+![OUAK07 poster: Three Little Pigs-inspired trio with pig masks and a pink latex outfit.](/images/ouak07-min.png)
+
+> "Get your dirty minds ready for a wonderful party !" - https://fetlife.com/events/1556451

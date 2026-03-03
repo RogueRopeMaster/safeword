@@ -1,0 +1,14 @@
+---
+title: "OUAK05 : Une sirène n'a pas de larmes, et c'est pourquoi elle souffre tellement plus."
+date: 2024-02-17
+event_date: 2024-02-17
+url: "/fr/events/OUAK05/"
+draft: false
+tags: ["événement"]
+categories: ["événements"]
+image: "/images/ouak05-min.png"
+image_alt: "Affiche OUAK05 : une sirène ligotée sous l'eau, queue verte, éclairée par des rayons venus de la surface."
+---
+![Affiche OUAK05 : une sirène ligotée sous l'eau, queue verte, éclairée par des rayons venus de la surface.](/images/ouak05-min.png)
+
+> "If you find yourself by the shore, be cautious of a mesmerizing melody. As beautiful as it is beguiling, many unwary have fallen for it." - https://fetlife.com/events/1435798

@@ -1,0 +1,17 @@
+{{ if gt .Paginator.TotalPages 1 }}
+  <nav class="pagination" aria-label="{{ i18n "pagination_label" | default "Pagination" }}">
+    {{ with .Paginator.Prev }}
+      <a class="button" href="{{ .URL }}">{{ i18n "pagination_previous" | default "Previous" }}</a>
+    {{ else }}
+      <span class="button button-disabled" aria-disabled="true">{{ i18n "pagination_previous" | default "Previous" }}</span>
+    {{ end }}
+
+    <span class="pagination-info">{{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }}</span>
+
+    {{ with .Paginator.Next }}
+      <a class="button" href="{{ .URL }}">{{ i18n "pagination_next" | default "Next" }}</a>
+    {{ else }}
+      <span class="button button-disabled" aria-disabled="true">{{ i18n "pagination_next" | default "Next" }}</span>
+    {{ end }}
+  </nav>
+{{ end }}

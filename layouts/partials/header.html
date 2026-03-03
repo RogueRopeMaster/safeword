@@ -1,0 +1,56 @@
+{{ $mainNavLabel := i18n "main_navigation" | default "Main navigation" }}
+{{ $menuToggleLabel := i18n "menu_toggle" | default "Toggle navigation" }}
+
+<nav class="navigation" aria-label="{{ $mainNavLabel }}">
+  <section class="container">
+    {{ with .Site }}
+      <a class="navigation-title" href="{{ .Home.RelPermalink }}">
+        <img
+          class="navigation-brand-icon"
+          src="{{ "/images/favicon-32x32.png" | relURL }}"
+          srcset="{{ "/images/favicon-32x32.png" | relURL }} 1x, {{ "/images/favicon-96x96.png" | relURL }} 3x"
+          width="32"
+          height="32"
+          alt=""
+          aria-hidden="true"
+          decoding="async">
+        <span>{{ .Title }}</span>
+      </a>
+    {{ end }}
+
+    {{ if or .Site.Menus.main hugo.IsMultilingual }}
+      <button class="menu-button float-right" type="button" id="menu-toggle" aria-expanded="false" aria-controls="site-menu" aria-label="{{ $menuToggleLabel }}">
+        <span class="sr-only">{{ $menuToggleLabel }}</span>
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </button>
+
+      <ul class="navigation-list" id="site-menu">
+        {{ with .Site.Menus.main }}
+          {{ range sort . }}
+            {{ $entryURL := index (apply (slice .URL) (.Params.urlFunc | default "relLangURL") ".") 0 }}
+            {{ $isCurrent := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+            <li class="navigation-item">
+              <a class="navigation-link{{ if $isCurrent }} is-active{{ end }}{{ with .Params.class }} {{ . }}{{ end }}" href="{{ $entryURL }}"{{ if $isCurrent }} aria-current="page"{{ end }}>{{ .Name }}</a>
+            </li>
+          {{ end }}
+        {{ end }}
+
+        {{ if hugo.IsMultilingual }}
+          {{ $node := . }}
+          {{ .Scratch.Set "separator" true }}
+          {{ range (default .Site.Home.AllTranslations .Translations) }}
+            {{ if ne $.Site.Language .Language }}
+              {{ if $node.Scratch.Get "separator" }}
+                <li class="navigation-item menu-separator" aria-hidden="true"><span>|</span></li>
+                {{ $node.Scratch.Set "separator" false }}
+              {{ end }}
+              <li class="navigation-item">
+                <a class="navigation-link" href="{{ .RelPermalink }}" lang="{{ .Language.Lang }}">{{ .Language.LanguageName | emojify }}</a>
+              </li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </ul>
+    {{ end }}
+  </section>
+</nav>

@@ -1,0 +1,14 @@
+---
+title: "OUAK06 : Narcissus does not fall in love with his reflection because it's beautiful, but because it is his."
+date: 2024-05-25
+event_date: 2024-05-25
+url: "/events/OUAK06/"
+draft: false
+tags: ["event"]
+categories: ["events"]
+image: "/images/ouak06-min.png"
+image_alt: "OUAK06 poster: person gazing into a mirror and seeing a latex-masked reflection in a pink tiled room."
+---
+![OUAK06 poster: person gazing into a mirror and seeing a latex-masked reflection in a pink tiled room.](/images/ouak06-min.png)
+
+> "Let's express your true self, if you don't fear to love it." - https://fetlife.com/events/1483578

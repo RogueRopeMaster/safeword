@@ -1,0 +1,19 @@
+---
+title: "OUAK10 : Dès qu'il vit son pied, il sut qu'il irait parfaitement dans la pantoufle..."
+date: 2025-08-23
+event_date: 2025-08-23
+url: "/fr/events/OUAK10/"
+draft: false
+tags: ["événement"]
+categories: ["événements"]
+image: "/images/ouak10-min.jpg"
+image_alt: "Affiche OUAK10 : scène inspirée de Cendrillon, un personnage barbu embrasse une jambe chaussée d'une pantoufle de verre."
+fetlife: "https://fetlife.com/events/1820396"
+---
+![Affiche OUAK10 : scène inspirée de Cendrillon, un personnage barbu embrasse une jambe chaussée d'une pantoufle de verre.](/images/ouak10-min.jpg)
+
+Dès qu'il vit son pied, il sut qu'il irait parfaitement dans la pantoufle...
+
+**Quand**  
+Sam, 23 août 2025 — 21:00  
+Jusqu'au : dim, 24 août 2025 — 03:00

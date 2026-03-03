@@ -8,6 +8,12 @@ Dear Volunteers,
 
 Thanks for offering to help with *Once Upon a Kink*. This section gives a quick overview of the volunteer roles and what each one involves.
 
+Our tickets usually sell out in just a few minutes, so getting in can feel like a game of luck.
+
+Each edition depends on 18 volunteer shifts that need to be filled.
+
+Volunteers get a discount and can bring up to two friends.
+
  Pick a role below and read the briefing before you sign up:
 
 1. [**Dungeon Keepers**](dungeon-keepers/) — Safety-focused role overseeing play spaces, consent rules, and incident response.
@@ -18,7 +24,7 @@ Thanks for offering to help with *Once Upon a Kink*. This section gives a quick 
 6. [**Food Prep**](food-prep/) — Prepare food before doors open so the buffet can run smoothly.
 7. [**Roadies**](roadies/) — Help load and unload the truck and move boxes (daytime, usually around noon).
 
-Volunteering is also one of the best ways to secure a spot at an event that sells out fast. Each volunteer can get up to two extra tickets for friends.
+Volunteering is one of the best ways to secure your spot.
 
 If your role takes place during the event, please arrive 15 minutes before the start of your shift so we can do a quick handover.
 

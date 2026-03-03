@@ -1,0 +1,14 @@
+---
+title: "OUAK08 : How could anyone so beautiful be hidden in anything so frightful?"
+date: 2024-12-21
+event_date: 2024-12-21
+url: "/events/OUAK08/"
+draft: false
+tags: ["event"]
+categories: ["events"]
+image: "/images/ouak08-min.png"
+image_alt: "OUAK08 poster: orange-haired rider lifting a black horse mask, with corset and reins in a dark fantasy scene."
+---
+![OUAK08 poster: orange-haired rider lifting a black horse mask, with corset and reins in a dark fantasy scene.](/images/ouak08-min.png)
+
+> "Hop in the saddle and participate to a great party !" - https://fetlife.com/events/1622744

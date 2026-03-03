@@ -1,0 +1,86 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#140c1f">
+
+{{ with .Site.Params.author }}
+  <meta name="author" content="{{ . }}">
+{{ end }}
+
+{{ $description := .Description | default (.Summary | plainify | default .Site.Params.description) }}
+{{ with $description }}
+  <meta name="description" content="{{ . }}">
+{{ end }}
+
+{{ with .Keywords }}
+  <meta name="keywords" content="{{ delimit . ", " }}">
+{{ else }}
+  {{ with .Site.Params.keywords }}
+    <meta name="keywords" content="{{ . }}">
+  {{ end }}
+{{ end }}
+
+{{ if .Params.canonicalUrl }}
+  <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+{{ else }}
+  <link rel="canonical" href="{{ .Permalink }}">
+{{ end }}
+
+{{ if hugo.IsMultilingual }}
+  {{ range .AllTranslations }}
+    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+  {{ end }}
+  {{ $defaultSite := index .Site.Sites 0 }}
+  <link rel="alternate" hreflang="x-default" href="{{ $defaultSite.Home.Permalink }}">
+{{ end }}
+
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+
+<link rel="icon" type="image/svg+xml" href="{{ "/images/favicon.svg" | relURL }}" sizes="any">
+<link rel="icon" type="image/png" href="{{ "/images/favicon-32x32.png" | relURL }}" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ "/images/favicon-16x16.png" | relURL }}" sizes="16x16">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "/images/apple-touch-icon.png" | relURL }}">
+<link rel="manifest" href="{{ "/images/site.webmanifest" | relURL }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=Manrope:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" referrerpolicy="no-referrer" crossorigin="anonymous">
+
+{{ with resources.Get "css/site.css" }}
+  {{ $siteStyles := . }}
+  {{ if hugo.IsProduction }}
+    {{ $siteStyles = $siteStyles | minify | fingerprint }}
+  {{ end }}
+  <link rel="stylesheet" href="{{ $siteStyles.RelPermalink }}"{{ with $siteStyles.Data.Integrity }} integrity="{{ . }}" crossorigin="anonymous"{{ end }} media="screen">
+{{ end }}
+
+{{ range .Site.Params.customCSS }}
+  {{ with resources.Get . }}
+    {{ $styles := . }}
+    {{ if hugo.IsProduction }}
+      {{ $styles = $styles | minify | fingerprint }}
+    {{ end }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}"{{ with $styles.Data.Integrity }} integrity="{{ . }}" crossorigin="anonymous"{{ end }} media="screen">
+  {{ end }}
+{{ end }}
+
+{{ range .Site.Params.customSCSS }}
+  {{ $styles := resources.Get . | toCSS }}
+  {{ if hugo.IsProduction }}
+    {{ $styles = $styles | minify | fingerprint }}
+  {{ end }}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}"{{ with $styles.Data.Integrity }} integrity="{{ . }}" crossorigin="anonymous"{{ end }} media="screen">
+{{ end }}
+
+{{ range .AlternativeOutputFormats -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+{{ end -}}
+
+{{ if .IsHome }}
+  <meta name="generator" content="Hugo {{ hugo.Version }}">
+{{ end }}
+
+{{ partial "head/extensions.html" . }}

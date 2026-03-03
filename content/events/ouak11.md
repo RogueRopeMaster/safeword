@@ -1,0 +1,19 @@
+---
+title: "OUAK11 : He was her prisoner... or was she his?"
+date: 2025-11-08
+event_date: 2025-11-08
+url: "/events/OUAK11/"
+draft: false
+tags: ["event"]
+categories: ["events"]
+image: "/images/ouak11-min.jpg"
+image_alt: "OUAK11 poster: Beauty and the Beast-inspired scene with a wolf-like creature embracing a woman under a starry sky."
+fetlife: "https://fetlife.com/events/1888744"
+---
+![OUAK11 poster: Beauty and the Beast-inspired scene with a wolf-like creature embracing a woman under a starry sky.](/images/ouak11-min.jpg)
+
+He was her prisoner... or was she his?
+
+**When**  
+Sat, Nov 8, 2025 — 9:00 PM  
+Until: Sun, Nov 9, 2025 — 3:00 AM

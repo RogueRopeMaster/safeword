@@ -1,0 +1,19 @@
+---
+title: "OUAK10 : As soon as he saw her foot, he knew it would fit the slipper perfectly..."
+date: 2025-08-23
+event_date: 2025-08-23
+url: "/events/OUAK10/"
+draft: false
+tags: ["event"]
+categories: ["events"]
+image: "/images/ouak10-min.jpg"
+image_alt: "OUAK10 poster: Cinderella-inspired scene of a bearded character kissing a leg in a glass slipper."
+fetlife: "https://fetlife.com/events/1820396"
+---
+![OUAK10 poster: Cinderella-inspired scene of a bearded character kissing a leg in a glass slipper.](/images/ouak10-min.jpg)
+
+As soon as he saw her foot, he knew it would fit the slipper perfectly...
+
+**When**  
+Sat, Aug 23, 2025 — 9:00 PM  
+Until: Sun, Aug 24, 2025 — 3:00 AM

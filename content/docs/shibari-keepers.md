@@ -27,7 +27,7 @@ If something happens during your shift and you need help, communicate with your 
 A boudoir space is available only in the event that a person needs to be isolated after an incident. This is located at the end of the entrance hall.
 
 At the end of your shift, debrief with the DK who comes after you. Communicate incidents and especially if there are people to keep an eye on.
-If a person should be put out of the party (Danger to others, breach of consent, drunkenness, prohibited practice), do not do it yourself. Ask someone from the organization to take over. (Ambre, Ambroise, Hansf, Augustine, Doodler, Eldey).
+If a person should be put out of the party (Danger to others, breach of consent, drunkenness, prohibited practice), do not do it yourself. Ask someone from the organization to take over. (Ambre, Galante, Hansf, Augustine, Doodler, Eldey).
 
 The main point of DK's work, in addition to a reassuring presence and a displayed availability, is to monitor. Overall you can ask yourself if:
 
@@ -92,4 +92,4 @@ If a group of people talks animatedly in the playroom while others are calmly pl
 
 ## Contact
 
-If you have a problem or a question, Ambroise is the reference person for the Dungeon Keepers team. Do not hesitate to head to Ambroise. (If Ambroise is playing and it is absolutely necessary to intervene, draw Ambroise's attention or the attention of Ambroise's partner to the fact that you need help.)
+If you have a problem or a question, Galante is the reference person for the Dungeon Keepers team. Do not hesitate to head to Galante. (If Galante is playing and it is absolutely necessary to intervene, draw Galante's attention or the attention of Galante's partner to the fact that you need help.)

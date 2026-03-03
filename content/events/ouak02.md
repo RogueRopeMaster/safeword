@@ -1,0 +1,15 @@
+---
+title: "OUAK02 : Grandmother dear, what big teeth you have!"
+date: 2023-05-20
+event_date: 2023-05-20
+url: "/events/OUAK02/"
+draft: false
+tags: ["event"]
+categories: ["events"]
+image: "/images/ouak02-min.png"
+image_alt: "OUAK02 poster: Little Red Riding Hood in lingerie straddles a kneeling wolf-masked partner in a red-toned scene."
+---
+
+![OUAK02 poster: Little Red Riding Hood in lingerie straddles a kneeling wolf-masked partner in a red-toned scene.](/images/ouak02-min.png)
+
+> "Beware of what you will find in those tangled woods. Every corner can hide what you are looking for. Be assured to come in good company or the forest will take care of you, honey."

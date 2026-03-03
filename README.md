@@ -1,62 +1,40 @@
 # Safeword Hugo Website
 
-This is a bilingual (English/French) website built with [Hugo](https://gohugo.io/) using the [Hugo-Coder](https://github.com/luizdepra/hugo-coder) theme.
+Bilingual (English/French) Hugo website for Safeword events, docs, and posts.
+
+## Stack
+
+- Hugo `v0.155.3+extended` (Netlify target)
+- First-party local templates in `layouts/` (no external theme dependency)
+- Local styles in `assets/css/site.css` and `assets/css/docs.css`
 
 ## Structure
 
-The site follows the standard Hugo structure:
+- `content/`: Markdown content (paired EN/FR files)
+- `layouts/`: Site templates and partials
+- `assets/`: Hugo Pipe assets (CSS/JS)
+- `static/`: Static files and images
+- `i18n/`: Translation keys
+- `hugo.toml`: Site configuration
 
-- `content/`: Contains all the content files in Markdown format
-  - English content: `*.md`
-  - French content: `*.fr.md`
-- `static/`: Contains static assets like images
-- `themes/`: Contains the Hugo-Coder theme as a git submodule
-- `hugo.toml`: Main configuration file
-
-## Content Sections
-
-- Home: Main landing page
-- About: Information about the organization
-- Blog: Blog posts and updates
-- Projects: Project showcase
-- Contact: Contact information
-
-## Development
-
-To run the site locally:
+## Local Development
 
 ```bash
-# Start the Hugo development server
 hugo server -D
 ```
 
-This will start a local development server at http://localhost:1313/
+The site runs at `http://localhost:1313`.
 
-## Building
-
-To build the site for production:
+## Build
 
 ```bash
-# Build the site
-hugo
+hugo --gc --minify
 ```
 
-This will generate the static site in the `public/` directory.
+The generated output is written to `public/`.
 
-## Adding Content
+## Content Workflow
 
-To add new content:
-
-1. Create a new Markdown file in the appropriate content directory
-2. Add front matter at the top of the file
-3. Add your content in Markdown format
-4. Create a corresponding `.fr.md` file for the French version
-
-## Multilingual Support
-
-The site supports English and French. To add content in both languages:
-
-- English: `content/section/page.md`
-- French: `content/section/page.fr.md`
-
-The language switcher in the theme will automatically detect and display the available languages.
+1. Add/update markdown in the relevant section under `content/`.
+2. Keep bilingual parity (`page.md` and `page.fr.md`).
+3. Build locally and verify EN/FR rendering before publishing.

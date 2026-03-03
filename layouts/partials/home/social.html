@@ -1,0 +1,16 @@
+{{ with .Site.Params.social }}
+  <ul>
+    {{ range sort . "weight" }}
+      {{ $isExternal := or (hasPrefix .url "http://") (hasPrefix .url "https://") }}
+      <li>
+        <a href="{{ .url | safeURL }}" aria-label="{{ .name }}"{{ if .rel }} rel="{{ .rel }}"{{ else if $isExternal }} rel="noopener noreferrer"{{ end }}{{ if .target }} target="{{ .target }}"{{ else if $isExternal }} target="_blank"{{ end }}{{ if .type }} type="{{ .type }}"{{ end }}>
+          {{ if .icon }}
+            <i class="{{ .icon }}" aria-hidden="true"></i>
+          {{ else }}
+            {{ .name }}
+          {{ end }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

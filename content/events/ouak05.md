@@ -1,0 +1,15 @@
+---
+title: "OUAK05 : A mermaid has no tears, and therefore she suffers so much more."
+date: 2024-02-17
+event_date: 2024-02-17
+url: "/events/OUAK05/"
+draft: false
+tags: ["event"]
+categories: ["events"]
+image: "/images/ouak05-min.png"
+image_alt: "OUAK05 poster: a bound mermaid underwater in a green tail, lit by shafts of light from above."
+---
+
+![OUAK05 poster: a bound mermaid underwater in a green tail, lit by shafts of light from above.](/images/ouak05-min.png)
+
+> "If you find yourself by the shore, be cautious of a mesmerizing melody. As beautiful as it is beguiling, many unwary have fallen for it." - https://fetlife.com/events/1435798

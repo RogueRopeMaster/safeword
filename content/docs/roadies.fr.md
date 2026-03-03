@@ -13,7 +13,7 @@ Les roadies aident à charger/décharger le camion et à déplacer des cartons. 
 
 Les roadies sont dispo autour de midi. Tu peux venir à Bruxelles pour aider à charger et décharger le camion. Tu seras contacté·e avec des horaires et des lieux précis.
 
-## Taches typiques
+## Tâches typiques
 
 - Porter des cartons.
 - Charger et décharger le camion.

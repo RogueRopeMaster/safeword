@@ -1,0 +1,14 @@
+---
+title: "OUAK09 : Too big, too small...just right!"
+date: 2025-04-12
+event_date: 2025-04-12
+url: "/events/OUAK09/"
+draft: false
+tags: ["event"]
+categories: ["events"]
+image: "/images/ouak09-min.png"
+image_alt: "OUAK09 poster: Goldilocks-themed scene with a seated blonde figure and three hooded companions in red tones."
+---
+![OUAK09 poster: Goldilocks-themed scene with a seated blonde figure and three hooded companions in red tones.](/images/ouak09-min.png)
+
+> You will not need to try it three times to find it perfect~ - https://fetlife.com/events/1707132
