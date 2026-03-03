@@ -2,6 +2,7 @@
 title: "À propos"
 date: 2023-01-01
 draft: false
+description: "Safeword est une association bruxelloise qui cree des evenements kinky axes sur le consentement."
 ---
 
 # À propos de Safeword

@@ -126,3 +126,28 @@ other = "Suivant"
 
 [footer_built_with]
 other = "Construit avec"
+
+[previous]
+other = "Précédent"
+
+[next]
+other = "Suivant"
+
+[docs]
+other = "Briefings"
+
+[overview]
+other = "Vue d'ensemble"
+
+[link_to_heading]
+other = "Lien vers ce titre"
+
+[briefings]
+other = "briefings"
+
+["événements"]
+one = "événement"
+other = "événements"
+
+["événement"]
+other = "événement"

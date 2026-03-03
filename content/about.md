@@ -2,6 +2,7 @@
 title: "About"
 date: 2023-01-01
 draft: false
+description: "Safeword is a Brussels-based non-profit creating consent-aware kinky events."
 ---
 
 # About Safeword
@@ -11,4 +12,3 @@ At the beginning, there was a simple idea. On a cold night in Brussels, a little
 Safeword is a non-profit organization dedicated to creating events—and supporting others in creating their own—that foster awareness around sexuality, kink, and consent. That mission remains at the heart of everything we do.
 
 We’ve now hosted over ten parties and we’re still going strong. A few years in, even more ideas and concepts are brewing. Stay tuned.
-

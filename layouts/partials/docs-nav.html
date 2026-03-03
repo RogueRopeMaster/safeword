@@ -1,11 +1,11 @@
 {{ $docs := .Site.GetPage "section" "docs" }}
 {{ if $docs }}
-<aside class="docs-nav" aria-label="Docs navigation">
-  <div class="docs-nav-title">Docs</div>
+<aside class="docs-nav" aria-label="{{ T "docs" }}">
+  <div class="docs-nav-title">{{ T "docs" }}</div>
   <nav>
     <ul>
       <li>
-        <a href="{{ $docs.RelPermalink }}" class="{{ if eq .RelPermalink $docs.RelPermalink }}is-active{{ end }}">Overview</a>
+        <a href="{{ $docs.RelPermalink }}" class="{{ if eq .RelPermalink $docs.RelPermalink }}is-active{{ end }}">{{ T "overview" }}</a>
       </li>
       {{ range $docs.Pages.ByWeight }}
         <li>

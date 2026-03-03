@@ -2,6 +2,7 @@
 title: "Contact"
 date: 2023-01-01
 draft: false
+description: "Contacte Safeword par email ou via les reseaux sociaux pour toute question ou demande de benevolat."
 ---
 
 Contactez-nous pour toute question, idée ou proposition de collaboration.

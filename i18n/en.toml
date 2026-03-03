@@ -126,3 +126,22 @@ other = "Next"
 
 [footer_built_with]
 other = "Built with"
+
+[previous]
+other = "Previous"
+
+[next]
+other = "Next"
+
+[docs]
+other = "Docs"
+
+[overview]
+other = "Overview"
+
+[events]
+one = "event"
+other = "events"
+
+[event]
+other = "event"

@@ -1,7 +1,8 @@
 ---
-title: "Docs"
+title: "Briefings"
 date: 2026-02-09
 draft: false
+description: "Aperçu des rôles bénévoles et liens vers les briefings de Once Upon a Kink."
 ---
 
 Bonjour à toutes et à tous,
@@ -26,7 +27,7 @@ Choisis un rôle ci-dessous et lis le briefing avant de t'inscrire :
 
 Le bénévolat est l'un des meilleurs moyens de sécuriser ta place.
 
-Si ton rôle se déroule pendant l'événement, merci d'arriver 15 minutes avant le début de ton shift pour faire un rapide passage de relais.
+Si ton rôle se déroule pendant l'événement, merci d'arriver 15 minutes avant le début de ta plage bénévole pour faire un rapide passage de relais.
 
 Dans les semaines qui précèdent l'événement, les bénévoles recevront une invitation à rejoindre le groupe WhatsApp pour les infos et la coordination.
 

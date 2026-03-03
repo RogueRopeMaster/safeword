@@ -2,6 +2,7 @@
 title: "Bénévoles"
 date: 2023-01-01
 draft: false
+description: "Rejoins l'equipe benevole de Safeword pour aider pendant les evenements."
 ---
 
 ## Rejoins l'équipe Safeword
@@ -25,10 +26,10 @@ Notre capacité totale est de 75. Tu peux faire le calcul.
 - Buffet Volunteers : garder le buffet propre, rempli et accueillant.
 - Assemblers : installer le lieu avant l'ouverture.
 - Disassemblers : remettre le lieu en ordre après l'événement.
-- Food Prep : preparer la nourriture du buffet avant l'ouverture.
+- Food Prep : préparer la nourriture du buffet avant l'ouverture.
 - Roadies : aider à charger et décharger le matériel en journée.
 
-Si ton rôle se passe pendant l'événement, merci d'arriver 15 minutes avant ton shift pour le passage de relais.
+Si ton rôle se passe pendant l'événement, merci d'arriver 15 minutes avant ta plage bénévole pour le passage de relais.
 
 Dans les semaines avant l'événement, les bénévoles reçoivent une invitation au groupe WhatsApp pour les infos et la coordination.
 

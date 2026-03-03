@@ -158,7 +158,10 @@ url = "mailto:contact@safeword.be"
   languageName = ":uk:"
   title = "Safeword"
   weight = 1
-  info = ["Events in Bxl"]
+
+  [languages.en.params]
+  description = "Consent-forward events and community resources from Safeword in Brussels."
+  info = ["Kinky Events in Bxl and Beyond!"]
   
   [[languages.en.menu.main]]
   name = "About"
@@ -189,11 +192,11 @@ url = "mailto:contact@safeword.be"
   languageName = ":fr:"
   title = "Safeword"
   weight = 2
-  info = ["Événements à Bruxelles"]
   
   [languages.fr.params]
   author = "Safeword Asbl"
-  description = "Site web de Safeword"
+  description = "Événements kinky à Bruxelles et au-delà."
+  info = ["Événements kinky à Bruxelles et au-delà."]
   
   [[languages.fr.menu.main]]
   name = "À propos"

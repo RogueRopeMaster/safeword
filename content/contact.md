@@ -2,6 +2,7 @@
 title: "Contact"
 date: 2023-01-01
 draft: false
+description: "Contact Safeword by email or social media for questions, feedback, and volunteer inquiries."
 ---
 
 Reach out with any question, idea, or collaboration proposal.

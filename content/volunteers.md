@@ -2,6 +2,7 @@
 title: "Volunteers"
 date: 2023-01-01
 draft: false
+description: "Join the Safeword volunteer crew and help support events in Brussels."
 ---
 
 ## Join the Safeword Crew
