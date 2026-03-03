@@ -13,7 +13,7 @@ Reach out with any question, idea, or collaboration proposal.
 ## Social Media
 
 - [Fetlife](https://fetlife.com/Safeword_BE)
-- [Instagram](https://www.instagram.com/once.upon.a.kink)
+- [Instagram](https://www.instagram.com/safeword.be)
 
 <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
   <input type="hidden" name="form-name" value="contact">

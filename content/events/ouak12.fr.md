@@ -1,5 +1,5 @@
 ---
-title: "OUAK12 : Tu es à moi, tu seras à moi, toi et moi ne faisons qu'un pour toujours."
+title: "OUAK12 : Certains désirs sont destinés à durer éternellement."
 date: 2026-05-23
 publishDate: 2026-02-12
 event_date: 2026-05-23
@@ -8,11 +8,12 @@ draft: false
 tags: ["événement"]
 categories: ["événements"]
 image: "/images/ouak12.jpg"
-image_alt: "Affiche OUAK12 : étreinte sombre sous la lune, une personne en fait basculer une autre, avec les infos de soirée et la phrase 'You are mine, you shall be mine, you and I are one forever.'."
+image_alt: "Affiche OUAK12 : étreinte sombre sous la lune, une personne en fait basculer une autre, avec les infos de soirée et la phrase 'Certains désirs sont destinés à durer éternellement.'"
+fetlife: "https://fetlife.com/events/2026/05/23/once-upon-a-kink-12-qwnkew"
 ---
-![Affiche OUAK12 : étreinte sombre sous la lune, une personne en fait basculer une autre, avec les infos de soirée et la phrase 'You are mine, you shall be mine, you and I are one forever.'.](/images/ouak12.jpg)
+![Affiche OUAK12 : étreinte sombre sous la lune, une personne en fait basculer une autre, avec les infos de soirée et la phrase 'Certains désirs sont destinés à durer éternellement.'](/images/ouak12.jpg)
 
-Tu es à moi, tu seras à moi, toi et moi ne faisons qu'un pour toujours.
+Certains désirs sont destinés à durer éternellement.
 
 **Quand**  
 Sam, 23 mai 2026 — 21:00  

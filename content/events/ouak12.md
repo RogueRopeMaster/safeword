@@ -1,5 +1,5 @@
 ---
-title: "OUAK12 : You are mine, you shall be mine, you and I are one forever."
+title: "OUAK12 : Some desires are meant to last forever."
 date: 2026-05-23
 publishDate: 2026-02-12
 event_date: 2026-05-23
@@ -8,11 +8,12 @@ draft: false
 tags: ["event"]
 categories: ["events"]
 image: "/images/ouak12.jpg"
-image_alt: "OUAK12 poster: a dark moonlit embrace with one figure dipping another, with event details and the line 'You are mine, you shall be mine, you and I are one forever.'"
+image_alt: "OUAK12 poster: a dark moonlit embrace with one figure dipping another, with event details and the line 'Some desires are meant to last forever.'"
+fetlife: "https://fetlife.com/events/2026/05/23/once-upon-a-kink-12-qwnkew"
 ---
-![OUAK12 poster: a dark moonlit embrace with one figure dipping another, with event details and the line 'You are mine, you shall be mine, you and I are one forever.'](/images/ouak12.jpg)
+![OUAK12 poster: a dark moonlit embrace with one figure dipping another, with event details and the line 'Some desires are meant to last forever.'](/images/ouak12.jpg)
 
-You are mine, you shall be mine, you and I are one forever.
+Some desires are meant to last forever.
 
 **When**  
 Sat, May 23, 2026 — 9:00 PM  
