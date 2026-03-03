@@ -2,6 +2,7 @@
 title: "OUAK05 : Une sirène n'a pas de larmes, et c'est pourquoi elle souffre tellement plus."
 date: 2024-02-17
 event_date: 2024-02-17
+url: "/fr/events/OUAK05/"
 draft: false
 tags: ["événement"]
 categories: ["événements"]

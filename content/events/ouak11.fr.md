@@ -2,6 +2,7 @@
 title: "OUAK11 : Était-il son prisonnier... ou était-elle sa prisonnière ?"
 date: 2025-11-08
 event_date: 2025-11-08
+url: "/fr/events/OUAK11/"
 draft: false
 tags: ["événement"]
 categories: ["événements"]

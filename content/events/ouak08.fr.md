@@ -2,6 +2,7 @@
 title: "OUAK08 : Comment quelque chose d'aussi beau peut-il être caché dans quelque chose d'aussi effrayant ?"
 date: 2024-12-21
 event_date: 2024-12-21
+url: "/fr/events/OUAK08/"
 draft: false
 tags: ["événement"]
 categories: ["événements"]

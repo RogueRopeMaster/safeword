@@ -134,39 +134,32 @@
               </a>
             {{ end }}
           </div>
+
+          {{ if and $featuredIsUpcoming $upcomingWidgetEvent (eq .RelPermalink $upcomingWidgetEvent.RelPermalink) (ne (strings.TrimSpace $upcomingWidgetTicketsURL) "") }}
+            <div class="home-feature-ticket">
+              <p class="home-ticket-event">
+                {{ i18n "home_tickets_event_label" | default "Now selling for" }}
+                <strong>{{ .Title }}</strong>
+              </p>
+              <div class="home-ticket-widget-shell">
+                <pretix-widget event="{{ $upcomingWidgetTicketsURL }}" single-item-select="button"></pretix-widget>
+                <noscript>
+                  <div class="pretix-widget">
+                    <div class="pretix-widget-info-message">
+                      {{ i18n "home_tickets_noscript_prefix" | default "JavaScript is disabled in your browser. To access our ticket shop without JavaScript, please" }}
+                      <a target="_blank" rel="noopener noreferrer" href="{{ $upcomingWidgetTicketsURL }}">
+                        {{ i18n "home_tickets_noscript_link" | default "click here" }}
+                      </a>.
+                    </div>
+                  </div>
+                </noscript>
+              </div>
+            </div>
+          {{ end }}
         {{ else }}
           <p class="events-empty">{{ i18n "home_events_none" | default "No events are listed yet. Check back soon." }}</p>
         {{ end }}
       </aside>
-
-      {{ with $upcomingWidgetEvent }}
-        <aside class="home-block home-ticket-block">
-          <div class="home-block-head">
-            <h2>{{ i18n "home_tickets_heading" | default "Tickets" }}</h2>
-            <a class="home-inline-link home-inline-link-small" href="{{ .RelPermalink }}">
-              {{ i18n "events_cta" | default "Open event" }}
-              <i class="fa-solid fa-arrow-right"></i>
-            </a>
-          </div>
-          <p class="home-ticket-event">
-            {{ i18n "home_tickets_event_label" | default "Now selling for" }}
-            <strong>{{ .Title }}</strong>
-          </p>
-          <div class="home-ticket-widget-shell">
-            <pretix-widget event="{{ $upcomingWidgetTicketsURL }}" single-item-select="button"></pretix-widget>
-            <noscript>
-              <div class="pretix-widget">
-                <div class="pretix-widget-info-message">
-                  {{ i18n "home_tickets_noscript_prefix" | default "JavaScript is disabled in your browser. To access our ticket shop without JavaScript, please" }}
-                  <a target="_blank" rel="noopener noreferrer" href="{{ $upcomingWidgetTicketsURL }}">
-                    {{ i18n "home_tickets_noscript_link" | default "click here" }}
-                  </a>.
-                </div>
-              </div>
-            </noscript>
-          </div>
-        </aside>
-      {{ end }}
     </div>
   </section>
 {{ end }}

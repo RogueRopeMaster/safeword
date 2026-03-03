@@ -3,6 +3,7 @@ title = "Safeword"
 
 defaultContentLanguage = "en"
 enableEmoji = true
+disablePathToLower = true
 
 [pagination]
 pagerSize = 100

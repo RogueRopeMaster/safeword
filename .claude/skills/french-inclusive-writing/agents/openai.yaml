@@ -1,0 +1,4 @@
+interface:
+  display_name: "French Inclusive Writing"
+  short_description: "Apply inclusive French writing to all FR content"
+  default_prompt: "Use this skill whenever French text is generated or edited."

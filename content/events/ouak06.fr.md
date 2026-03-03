@@ -2,6 +2,7 @@
 title: "OUAK06 : Narcisse ne tombe pas amoureux de son reflet parce qu'il est beau, mais parce qu'il est le sien."
 date: 2024-05-25
 event_date: 2024-05-25
+url: "/fr/events/OUAK06/"
 draft: false
 tags: ["événement"]
 categories: ["événements"]

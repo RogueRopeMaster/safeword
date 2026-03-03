@@ -2,6 +2,7 @@
 title: "OUAK10 : As soon as he saw her foot, he knew it would fit the slipper perfectly..."
 date: 2025-08-23
 event_date: 2025-08-23
+url: "/events/OUAK10/"
 draft: false
 tags: ["event"]
 categories: ["events"]

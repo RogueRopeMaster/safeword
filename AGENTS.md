@@ -32,3 +32,13 @@
 - Keep commits focused to one logical change area (content, templates, styling, or config).
 - PRs should include a short summary, affected paths, linked issue/task (if any), and screenshots for UI/layout changes.
 - Explicitly note bilingual updates (or intentional exceptions) in the PR description.
+
+## Skills
+A skill is a set of local instructions stored in a `SKILL.md` file.
+
+### Available skills
+- french-inclusive-writing: Apply inclusive French writing standards (epicene wording first, systematic feminine forms, controlled midpoint usage, double flexion, proximity agreement, readability safeguards) for any French text generation or editing task. (file: /home/hans/Projects/safeword/.claude/skills/french-inclusive-writing/SKILL.md)
+
+### How to use skills
+- Trigger rule: If a task generates, edits, rewrites, translates, or reviews French content, use `french-inclusive-writing`.
+- Scope: Apply this to French docs/pages/posts/UI copy and any ad hoc French text in replies.

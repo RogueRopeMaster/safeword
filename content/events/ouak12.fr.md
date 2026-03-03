@@ -3,6 +3,7 @@ title: "OUAK12 : Tu es à moi, tu seras à moi, toi et moi ne faisons qu'un pour
 date: 2026-05-23
 publishDate: 2026-02-12
 event_date: 2026-05-23
+url: "/fr/events/OUAK12/"
 draft: false
 tags: ["événement"]
 categories: ["événements"]

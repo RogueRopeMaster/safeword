@@ -2,6 +2,7 @@
 title: "OUAK02 : Grandmother dear, what big teeth you have!"
 date: 2023-05-20
 event_date: 2023-05-20
+url: "/events/OUAK02/"
 draft: false
 tags: ["event"]
 categories: ["events"]

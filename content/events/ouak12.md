@@ -3,6 +3,7 @@ title: "OUAK12 : You are mine, you shall be mine, you and I are one forever."
 date: 2026-05-23
 publishDate: 2026-02-12
 event_date: 2026-05-23
+url: "/events/OUAK12/"
 draft: false
 tags: ["event"]
 categories: ["events"]

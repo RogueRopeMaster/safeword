@@ -2,6 +2,7 @@
 title: "OUAK06 : Narcissus does not fall in love with his reflection because it's beautiful, but because it is his."
 date: 2024-05-25
 event_date: 2024-05-25
+url: "/events/OUAK06/"
 draft: false
 tags: ["event"]
 categories: ["events"]

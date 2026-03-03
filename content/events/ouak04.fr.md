@@ -2,6 +2,7 @@
 title: "OUAK04 : Peut-être qu'une allumette enflammée pourrait faire du bien."
 date: 2023-11-25
 event_date: 2023-11-25
+url: "/fr/events/OUAK04/"
 draft: false
 tags: ["événement"]
 categories: ["événements"]

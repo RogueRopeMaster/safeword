@@ -2,6 +2,7 @@
 title: "OUAK01 : Mirror, mirror, here I stand. Who is the fairest in the land?"
 date: 2023-02-18
 event_date: 2023-02-18
+url: "/events/OUAK01/"
 draft: false
 tags: ["event"]
 categories: ["events"]

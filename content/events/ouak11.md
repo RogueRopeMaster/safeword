@@ -2,6 +2,7 @@
 title: "OUAK11 : He was her prisoner... or was she his?"
 date: 2025-11-08
 event_date: 2025-11-08
+url: "/events/OUAK11/"
 draft: false
 tags: ["event"]
 categories: ["events"]
