@@ -2,6 +2,7 @@
 title: "OUAK12 : You are mine, you shall be mine, you and I are one forever."
 date: 2026-05-23
 publishDate: 2026-02-12
+lastmod: 2026-02-12
 event_date: 2026-05-23
 url: "/events/OUAK12/"
 draft: false
@@ -9,6 +10,8 @@ tags: ["event"]
 categories: ["events"]
 image: "/images/ouak12.jpg"
 image_alt: "OUAK12 poster: a dark moonlit embrace with one figure dipping another, with event details and the line 'You are mine, you shall be mine, you and I are one forever.'"
+image_width: 1462
+image_height: 2000
 ---
 ![OUAK12 poster: a dark moonlit embrace with one figure dipping another, with event details and the line 'You are mine, you shall be mine, you and I are one forever.'](/images/ouak12.jpg)
 

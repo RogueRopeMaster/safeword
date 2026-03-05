@@ -1,0 +1,17 @@
+# Safeword (Brussels)
+
+Safeword is a Brussels non-profit organizing consent-forward kinky events and publishing community resources in English and French.
+
+Primary site: https://safeword.be/
+Canonical home (EN): https://safeword.be/
+Canonical home (FR): https://safeword.be/fr/
+
+Key URLs:
+- Events (EN): https://safeword.be/events/
+- Events (FR): https://safeword.be/fr/events/
+- About (EN): https://safeword.be/about/
+- About (FR): https://safeword.be/fr/about/
+- Contact (EN): https://safeword.be/contact/
+- Contact (FR): https://safeword.be/fr/contact/
+- Volunteers (EN): https://safeword.be/volunteers/
+- Volunteers (FR): https://safeword.be/fr/volunteers/

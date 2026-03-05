@@ -1,5 +1,5 @@
 {{ define "title" }}
-  {{ .Site.Title }}
+  {{ .Title | default .Site.Title }}
 {{ end }}
 
 {{ define "content" }}
@@ -95,6 +95,8 @@
             {{ $featuredChip = i18n "events_chip_upcoming" | default "Upcoming event" }}
           {{ end }}
           {{ $featuredImageAlt := .Params.image_alt | default (printf "Poster for %s" .Title) }}
+          {{ $featuredImageWidth := .Params.image_width | default 1016 }}
+          {{ $featuredImageHeight := .Params.image_height | default 1440 }}
           {{ $featuredEventDate := partial "events/date-time.html" . }}
           {{ $fetlifeURL := partial "events/fetlife-url.html" . }}
           {{ $ticketsURL := partial "events/tickets-url.html" . }}
@@ -102,7 +104,7 @@
           <a href="{{ .RelPermalink }}" class="events-feature home-feature-card">
             <div class="events-feature-media">
               {{ if .Params.image }}
-                <img src="{{ .Params.image }}" alt="{{ $featuredImageAlt }}">
+                <img src="{{ .Params.image }}" alt="{{ $featuredImageAlt }}" width="{{ $featuredImageWidth }}" height="{{ $featuredImageHeight }}" loading="eager" decoding="async">
               {{ else }}
                 <div class="events-feature-fallback" aria-hidden="true">
                   <i class="fa-solid fa-masks-theater"></i>

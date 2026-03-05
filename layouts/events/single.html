@@ -9,6 +9,8 @@
   {{ $ticketsURL := partial "events/tickets-url.html" . }}
   {{ $ticketCode := partial "events/ticket-code.html" . }}
   {{ $eventDate := partial "events/date-time.html" . }}
+  {{ $imageWidth := .Params.image_width | default 1016 }}
+  {{ $imageHeight := .Params.image_height | default 1440 }}
   {{ $today := now.Format "2006-01-02" }}
   {{ $isUpcoming := ge ($eventDate | time.Format "2006-01-02") $today }}
   {{ $showTicketWidget := and $isUpcoming (ne (strings.TrimSpace $ticketsURL) "") (ne (strings.TrimSpace $ticketCode) "") }}
@@ -29,7 +31,7 @@
         <div class="event-detail-cover">
           {{ with .Params.image }}
             {{ $imageAlt := $.Params.image_alt | default (printf "Poster for %s" $.Title) }}
-            <img src="{{ . }}" alt="{{ $imageAlt }}" class="event-detail-image">
+            <img src="{{ . }}" alt="{{ $imageAlt }}" class="event-detail-image" width="{{ $imageWidth }}" height="{{ $imageHeight }}" loading="eager" decoding="async">
           {{ else }}
             <div class="event-detail-fallback" aria-hidden="true">
               <i class="fa-solid fa-masks-theater"></i>

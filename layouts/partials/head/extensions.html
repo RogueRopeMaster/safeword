@@ -1,4 +1,7 @@
 {{ $ticketCode := "" }}
+{{ $rootSite := index .Site.Sites 0 }}
+{{ $rootURL := $rootSite.Home.Permalink }}
+{{ $organizationID := printf "%s#organization" $rootURL }}
 
 {{ if .IsHome }}
   {{ $ticketContext := partial "events/upcoming-ticket-context.html" . }}
@@ -10,6 +13,100 @@
   {{ if $isUpcoming }}
     {{ $ticketCode = partial "events/ticket-code.html" . }}
   {{ end }}
+{{ end }}
+
+{{ if .IsHome }}
+  {{ $socialLinks := slice }}
+  {{ range .Site.Params.social }}
+    {{ if hasPrefix .url "http" }}
+      {{ $socialLinks = $socialLinks | append .url }}
+    {{ end }}
+  {{ end }}
+  {{ $organization := dict
+    "@type" "Organization"
+    "@id" $organizationID
+    "name" (.Site.Params.author | default .Site.Title)
+    "url" $rootURL
+    "logo" (dict
+      "@type" "ImageObject"
+      "url" ("/images/safeword.png" | absURL)
+      "width" 1164
+      "height" 1330
+    )
+    "email" "contact@safeword.be"
+    "sameAs" $socialLinks
+  }}
+  {{ $website := dict
+    "@type" "WebSite"
+    "@id" (printf "%s#website" .Permalink)
+    "url" .Permalink
+    "name" .Site.Title
+    "inLanguage" .Site.Language.Lang
+    "publisher" (dict "@id" $organizationID)
+  }}
+  {{ $schema := dict "@context" "https://schema.org" "@graph" (slice $organization $website) }}
+  <script type="application/ld+json">{{ $schema | jsonify | safeJS }}</script>
+{{ end }}
+
+{{ if and .IsPage (eq .Section "events") }}
+  {{ $eventDate := partial "events/date-time.html" . }}
+  {{ $eventDateISO := $eventDate | time.Format "2006-01-02" }}
+  {{ $eventEndDateISO := $eventDateISO }}
+  {{ $eventDescription := .Description | default (.Summary | plainify | default .Site.Params.description) }}
+  {{ $eventImage := "" }}
+  {{ with .Params.image }}
+    {{ $eventImage = . | absURL }}
+  {{ end }}
+  {{ $eventStatus := "https://schema.org/EventScheduled" }}
+  {{ if lt $eventDateISO (now.Format "2006-01-02") }}
+    {{ $eventStatus = "https://schema.org/EventCompleted" }}
+  {{ end }}
+  {{ $eventSchema := dict
+    "@context" "https://schema.org"
+    "@type" "Event"
+    "@id" (printf "%s#event" .Permalink)
+    "name" .Title
+    "url" .Permalink
+    "description" $eventDescription
+    "inLanguage" .Site.Language.Lang
+    "startDate" $eventDateISO
+    "endDate" $eventEndDateISO
+    "eventStatus" $eventStatus
+    "eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode"
+    "location" (dict
+      "@type" "Place"
+      "name" "Safeword Brussels"
+      "address" (dict
+        "@type" "PostalAddress"
+        "addressLocality" "Brussels"
+        "addressCountry" "BE"
+      )
+    )
+    "organizer" (dict
+      "@type" "Organization"
+      "@id" $organizationID
+      "name" (.Site.Params.author | default .Site.Title)
+      "url" $rootURL
+    )
+  }}
+  {{ if ne (strings.TrimSpace $eventImage) "" }}
+    {{ $eventSchema = merge $eventSchema (dict "image" (slice $eventImage)) }}
+  {{ end }}
+  {{ $ticketsURL := partial "events/tickets-url.html" . }}
+  {{ if ne (strings.TrimSpace $ticketsURL) "" }}
+    {{ $availability := "https://schema.org/InStock" }}
+    {{ if eq $eventStatus "https://schema.org/EventCompleted" }}
+      {{ $availability = "https://schema.org/SoldOut" }}
+    {{ end }}
+    {{ $offer := dict
+      "@type" "Offer"
+      "url" $ticketsURL
+      "availability" $availability
+      "priceCurrency" "EUR"
+    }}
+    {{ $eventSchema = merge $eventSchema (dict "offers" $offer) }}
+  {{ end }}
+  <script type="application/ld+json">{{ $eventSchema | jsonify | safeJS }}</script>
 {{ end }}
 
 {{ if ne (strings.TrimSpace $ticketCode) "" }}
