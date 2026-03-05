@@ -2,7 +2,7 @@
 title: "OUAK02 : Grand-mère, comme tu as de grandes dents!"
 date: 2023-05-20
 event_date: 2023-05-20
-url: "/fr/events/OUAK02/"
+url: "/fr/events/ouak02/"
 draft: false
 tags: ["événement"]
 categories: ["événements"]

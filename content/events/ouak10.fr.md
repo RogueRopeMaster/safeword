@@ -2,7 +2,7 @@
 title: "OUAK10 : Dès qu'il vit son pied, il sut qu'il irait parfaitement dans la pantoufle..."
 date: 2025-08-23
 event_date: 2025-08-23
-url: "/fr/events/OUAK10/"
+url: "/fr/events/ouak10/"
 draft: false
 tags: ["événement"]
 categories: ["événements"]

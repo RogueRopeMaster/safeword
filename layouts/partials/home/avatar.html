@@ -1,7 +1,14 @@
 {{ $avatarAlt := .Site.Params.author | default .Site.Title }}
 {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
   {{ with .Site.Params.avatarURL }}
-    <div class="avatar"><img src="{{ . | relURL }}" alt="{{ $avatarAlt }}" width="1164" height="1330" loading="eager" decoding="async"></div>
+    {{ $avatarSrc := . | relURL }}
+    {{ $avatarWebP := replaceRE `(?i)\.(png|jpe?g)$` ".webp" $avatarSrc }}
+    <div class="avatar">
+      <picture>
+        <source srcset="{{ $avatarWebP }}" type="image/webp">
+        <img src="{{ $avatarSrc }}" alt="{{ $avatarAlt }}" width="1164" height="1330" loading="eager" decoding="async" fetchpriority="high">
+      </picture>
+    </div>
   {{ end }}
 {{ end }}
 {{ with .Site.Params.gravatar }}

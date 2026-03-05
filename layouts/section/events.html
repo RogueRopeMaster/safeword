@@ -19,6 +19,7 @@
         {{ $imageAlt := $event.Params.image_alt | default (printf "Poster for %s" $event.Title) }}
         {{ $imageWidth := $event.Params.image_width | default 1016 }}
         {{ $imageHeight := $event.Params.image_height | default 1440 }}
+        {{ $imageWebP := replaceRE `(?i)\.(png|jpe?g)$` ".webp" $event.Params.image }}
         {{ $eventDate := partial "events/date-time.html" $event }}
         {{ $titleCode := .Title }}
         {{ $titleSlogan := "" }}
@@ -30,7 +31,10 @@
         <a href="{{ .RelPermalink }}" class="event-card">
           <div class="event-card-media">
             {{ if $event.Params.image }}
-              <img src="{{ $event.Params.image }}" alt="{{ $imageAlt }}" class="event-image" width="{{ $imageWidth }}" height="{{ $imageHeight }}" loading="lazy" decoding="async">
+              <picture>
+                <source srcset="{{ $imageWebP }}" type="image/webp">
+                <img src="{{ $event.Params.image }}" alt="{{ $imageAlt }}" class="event-image" width="{{ $imageWidth }}" height="{{ $imageHeight }}" loading="lazy" decoding="async">
+              </picture>
             {{ else }}
               <div class="event-image event-image-fallback" aria-hidden="true">
                 <i class="fa-solid fa-image"></i>

@@ -2,7 +2,7 @@
 title: "OUAK08 : How could anyone so beautiful be hidden in anything so frightful?"
 date: 2024-12-21
 event_date: 2024-12-21
-url: "/events/OUAK08/"
+url: "/events/ouak08/"
 draft: false
 tags: ["event"]
 categories: ["events"]

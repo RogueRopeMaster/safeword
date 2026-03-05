@@ -2,7 +2,7 @@
 title: "OUAK01 : Miroir, miroir, je me tiens ici. Qui est la plus belle du pays?"
 date: 2023-02-18
 event_date: 2023-02-18
-url: "/fr/events/OUAK01/"
+url: "/fr/events/ouak01/"
 draft: false
 tags: ["événement"]
 categories: ["événements"]

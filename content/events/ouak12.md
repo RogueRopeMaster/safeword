@@ -4,7 +4,7 @@ date: 2026-05-23
 publishDate: 2026-02-12
 lastmod: 2026-02-12
 event_date: 2026-05-23
-url: "/events/OUAK12/"
+url: "/events/ouak12/"
 draft: false
 tags: ["event"]
 categories: ["events"]

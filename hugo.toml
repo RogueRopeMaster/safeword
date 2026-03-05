@@ -24,7 +24,7 @@ unsafe = true
 [params]
 author = "Safeword Asbl"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Safeword hosts consent-forward kinky events in Brussels with clear safety practices, newcomer guidance, and community resources."
+description = "Safeword hosts consent-forward kinky events in Brussels with safety rules, newcomer guidance, and community resources. Explore upcoming nights with us."
 info = ["Kinky Events in Bxl and Beyond!"]
 keywords = "events"
 avatarURL = "images/avatar.jpg"
@@ -160,7 +160,7 @@ url = "mailto:contact@safeword.be"
   weight = 1
 
   [languages.en.params]
-  description = "Safeword hosts consent-forward kinky events in Brussels with clear safety practices, newcomer guidance, and community resources."
+  description = "Safeword hosts consent-forward kinky events in Brussels with safety rules, newcomer guidance, and community resources. Explore upcoming nights with us."
   images = ["/images/social-home-en.jpg"]
   info = ["Kinky Events in Bxl and Beyond!"]
   
@@ -196,7 +196,7 @@ url = "mailto:contact@safeword.be"
   
   [languages.fr.params]
   author = "Safeword Asbl"
-  description = "Safeword organise à Bruxelles des soirées kinky centrées sur le consentement, avec pratiques de sécurité claires, infos pour débutant·es et ressources communautaires."
+  description = "Safeword organise à Bruxelles des soirées kinky centrées sur le consentement, avec cadre sécurisant et infos pour débutant·es. Consultez les prochaines dates."
   images = ["/images/social-home-fr.jpg"]
   info = ["Événements kinky à Bruxelles et au-delà."]
   

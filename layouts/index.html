@@ -97,6 +97,7 @@
           {{ $featuredImageAlt := .Params.image_alt | default (printf "Poster for %s" .Title) }}
           {{ $featuredImageWidth := .Params.image_width | default 1016 }}
           {{ $featuredImageHeight := .Params.image_height | default 1440 }}
+          {{ $featuredImageWebP := replaceRE `(?i)\.(png|jpe?g)$` ".webp" .Params.image }}
           {{ $featuredEventDate := partial "events/date-time.html" . }}
           {{ $fetlifeURL := partial "events/fetlife-url.html" . }}
           {{ $ticketsURL := partial "events/tickets-url.html" . }}
@@ -104,7 +105,10 @@
           <a href="{{ .RelPermalink }}" class="events-feature home-feature-card">
             <div class="events-feature-media">
               {{ if .Params.image }}
-                <img src="{{ .Params.image }}" alt="{{ $featuredImageAlt }}" width="{{ $featuredImageWidth }}" height="{{ $featuredImageHeight }}" loading="eager" decoding="async">
+                <picture>
+                  <source srcset="{{ $featuredImageWebP }}" type="image/webp">
+                  <img src="{{ .Params.image }}" alt="{{ $featuredImageAlt }}" width="{{ $featuredImageWidth }}" height="{{ $featuredImageHeight }}" loading="eager" decoding="async" fetchpriority="high">
+                </picture>
               {{ else }}
                 <div class="events-feature-fallback" aria-hidden="true">
                   <i class="fa-solid fa-masks-theater"></i>

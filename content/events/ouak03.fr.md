@@ -2,7 +2,7 @@
 title: "OUAK03 : J'étais vraiment assez affligée de ne pas recevoir d'invitation."
 date: 2023-08-19
 event_date: 2023-08-19
-url: "/fr/events/OUAK03/"
+url: "/fr/events/ouak03/"
 draft: false
 tags: ["événement"]
 categories: ["événements"]

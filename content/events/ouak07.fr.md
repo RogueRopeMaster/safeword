@@ -2,7 +2,7 @@
 title: "OUAK07 : Les trois petits cochons feraient un festin délicieux. "
 date: 2024-08-24
 event_date: 2024-08-24
-url: "/fr/events/OUAK07/"
+url: "/fr/events/ouak07/"
 draft: false
 tags: ["événement"]
 categories: ["événements"]

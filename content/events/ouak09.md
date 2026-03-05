@@ -2,7 +2,7 @@
 title: "OUAK09 : Too big, too small...just right!"
 date: 2025-04-12
 event_date: 2025-04-12
-url: "/events/OUAK09/"
+url: "/events/ouak09/"
 draft: false
 tags: ["event"]
 categories: ["events"]

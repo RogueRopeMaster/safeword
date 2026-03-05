@@ -2,7 +2,7 @@
 title: "OUAK03 : I really felt quite distressed at not receiving an invitation."
 date: 2023-08-19
 event_date: 2023-08-19
-url: "/events/OUAK03/"
+url: "/events/ouak03/"
 draft: false
 tags: ["event"]
 categories: ["events"]

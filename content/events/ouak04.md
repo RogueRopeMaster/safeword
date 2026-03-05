@@ -2,7 +2,7 @@
 title: "OUAK04 : Perhaps a burning match might do some good."
 date: 2023-11-25
 event_date: 2023-11-25
-url: "/events/OUAK04/"
+url: "/events/ouak04/"
 draft: false
 tags: ["event"]
 categories: ["events"]

@@ -2,7 +2,7 @@
 title: "OUAK07 : The tree little pigs would make a lovely feast."
 date: 2024-08-24
 event_date: 2024-08-24
-url: "/events/OUAK07/"
+url: "/events/ouak07/"
 draft: false
 tags: ["event"]
 categories: ["events"]

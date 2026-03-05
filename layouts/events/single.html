@@ -31,7 +31,11 @@
         <div class="event-detail-cover">
           {{ with .Params.image }}
             {{ $imageAlt := $.Params.image_alt | default (printf "Poster for %s" $.Title) }}
-            <img src="{{ . }}" alt="{{ $imageAlt }}" class="event-detail-image" width="{{ $imageWidth }}" height="{{ $imageHeight }}" loading="eager" decoding="async">
+            {{ $imageWebP := replaceRE `(?i)\.(png|jpe?g)$` ".webp" . }}
+            <picture>
+              <source srcset="{{ $imageWebP }}" type="image/webp">
+              <img src="{{ . }}" alt="{{ $imageAlt }}" class="event-detail-image" width="{{ $imageWidth }}" height="{{ $imageHeight }}" loading="eager" decoding="async" fetchpriority="high">
+            </picture>
           {{ else }}
             <div class="event-detail-fallback" aria-hidden="true">
               <i class="fa-solid fa-masks-theater"></i>
