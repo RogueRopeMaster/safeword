@@ -57,16 +57,13 @@
   <link rel="stylesheet" href="{{ $siteStyles.RelPermalink }}"{{ with $siteStyles.Data.Integrity }} integrity="{{ . }}" crossorigin="anonymous"{{ end }} media="screen">
 {{ end }}
 
-{{ $isDocsPage := or (eq .Section "docs") (eq .Type "docs") }}
 {{ range .Site.Params.customCSS }}
-  {{ if or (ne . "css/docs.css") $isDocsPage }}
-    {{ with resources.Get . }}
-      {{ $styles := . }}
-      {{ if hugo.IsProduction }}
-        {{ $styles = $styles | minify | fingerprint }}
-      {{ end }}
-      <link rel="stylesheet" href="{{ $styles.RelPermalink }}"{{ with $styles.Data.Integrity }} integrity="{{ . }}" crossorigin="anonymous"{{ end }} media="screen">
+  {{ with resources.Get . }}
+    {{ $styles := . }}
+    {{ if hugo.IsProduction }}
+      {{ $styles = $styles | minify | fingerprint }}
     {{ end }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}"{{ with $styles.Data.Integrity }} integrity="{{ . }}" crossorigin="anonymous"{{ end }} media="screen">
   {{ end }}
 {{ end }}
 
