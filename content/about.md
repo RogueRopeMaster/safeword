@@ -45,25 +45,8 @@ You do not need to perform confidence to belong here. If you are curious, cautio
 
 If you are more experienced, we ask you to help maintain the tone of the room: lead by example, avoid pressure dynamics, and support a culture where consent is specific, enthusiastic, and reversible.
 
-## Newcomer FAQ
-
-**Do I need experience to attend?**  
-No. Many people join their first kinky event through Safeword.
-
-**Will someone explain the basics?**  
-Yes. Ask a volunteer or organizer at any point; guidance is part of the experience.
-
-**Can I come alone?**  
-Absolutely. Solo attendees are common.
-
-**Do I have to play?**  
-No. Watching, socializing, and leaving early are all valid choices.
-
-**What if something feels off?**  
-Contact the organizing team immediately. You will be heard.
-
 ## How to stay connected
 
-The easiest path is to follow our event updates and read each event page carefully before attending. You can also contact us directly if you need clarification on accessibility, boundaries, volunteer roles, or collaboration ideas.
+The easiest path is to follow our updates on [Instagram](https://www.instagram.com/once.upon.a.kink), check our [FetLife page](https://fetlife.com/Safeword_BE/), and read each event page carefully before attending. You can also contact us directly if you need clarification on accessibility, boundaries, volunteer roles, or collaboration ideas.
 
 Safeword exists because people keep showing up with care, curiosity, and respect. If that sounds like your kind of community, we would love to meet you at a future event.

@@ -14,6 +14,7 @@ Contactez-nous pour toute question, idée ou proposition de collaboration.
 ## Réseaux sociaux
 
 - [Instagram](https://www.instagram.com/once.upon.a.kink)
+- [FetLife](https://fetlife.com/Safeword_BE/)
 
 <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
   <input type="hidden" name="form-name" value="contact">

@@ -45,25 +45,8 @@ Il n'est pas nécessaire d'arriver avec des codes parfaits. Si vous êtes curieu
 
 Pour les personnes plus expérimentées, nous demandons une posture exemplaire: pas de pression, pas de jeu de statut, et une attention continue au consentement enthousiaste, spécifique et révocable.
 
-## Mini-FAQ pour les nouvelles personnes
-
-**Faut-il déjà avoir de l'expérience?**  
-Non. De nombreuses personnes découvrent leur premier événement kinky avec Safeword.
-
-**Peut-on venir seul·e?**  
-Oui. Les participant·es solo sont fréquent·es.
-
-**Y aura-t-il quelqu'un pour expliquer les bases?**  
-Oui. Vous pouvez solliciter l'équipe à tout moment.
-
-**Est-on obligé·e de jouer?**  
-Non. Observer, discuter ou partir plus tôt est totalement valable.
-
-**Que faire si une situation me met mal à l'aise?**  
-Contactez immédiatement l'équipe d'organisation. Votre parole sera prise au sérieux.
-
 ## Comment rester en lien
 
-Le plus simple est de suivre nos annonces et de lire chaque page d'événement avant de venir. Si vous avez des questions sur l'accessibilité, les limites, le bénévolat ou une collaboration, écrivez-nous directement.
+Le plus simple est de suivre nos annonces sur [Instagram](https://www.instagram.com/once.upon.a.kink), de consulter notre page [FetLife](https://fetlife.com/Safeword_BE/), et de lire chaque page d'événement avant de venir. Si vous avez des questions sur l'accessibilité, les limites, le bénévolat ou une collaboration, écrivez-nous directement.
 
 Safeword continue d'exister parce qu'une communauté entière choisit de construire un espace plus attentif, plus clair et plus respectueux. Si cette approche vous parle, nous serons ravi·es de vous retrouver lors d'une prochaine édition.
